@@ -40,6 +40,7 @@ frames_v3_cv5_cardiac_mcvp1hz_20min_cond5_ppvwave_wd3 @ exp/cardiac-units-log   
 frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3 @ exp/cardiac-units-log            # 2026-11-13 (Oren): idem + the mitral-valve condition
 frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_loglabel @ exp/cardiac-units-log   # 2026-11-13 (Oren): cond6 trained on the log label (same curation)
 frames_v3_cv5_cardiac_mcvp1hz_20min_cond6_ppvwave_wd3_expout @ exp/cardiac-units-log     # 2026-11-13 (Oren): cond6 with an exponential on the model output, loss in mmHg (same curation)
+frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel @ exp/cardiac-units-log-c4   # 2026-11-14 (Oren): the cond6 loglabel arm without the tricuspid-valve and mitral-valve conditions (AF, IABP on, pacemaker on, vent support remain); the branch carries the cycle-4 site file; own curation
 # done
 frames_v3_cv5_top10
 frames_v3_cv5_unitflag
