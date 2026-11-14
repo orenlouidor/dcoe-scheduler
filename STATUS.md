@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-14 21:36:11 (Israel time)
+# DCOE sweeps -- status at 2026-11-14 21:41:18 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 81.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -210,7 +210,7 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel | f2 | exp/cardiac-units-log-c4 = 9f65028 | tzag_elita | Done | 11-14 20:30 | 11-14 20:30 | 11-14 21:16 | run_20261114_210054_frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel_f2 | 734 / 243 / 243 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,cond_afib,iabp_on,pacemaker_on,vent_support | 1200 | -1170 |  | pap | 30 | 10 | median |  |  |  |  | 11-14 20:30 | 11-14 20:53 | 22m | Done |  | cpu | 11-14 21:00 | 11-14 21:16 | 15m | Done | 12 | power-gpu | 223 | 2.63 | 3.68 | 6.08 | 65 | 5.35 | 7.72 | 13.13 | 77 | 3.22 | 4.48 | 8.10 | athena: copied |
 | frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel | f1 | exp/cardiac-units-log-c4 = 9f65028 | tzag_elita | Done | 11-14 20:30 | 11-14 20:53 | 11-14 21:22 | run_20261114_211114_frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel_f1 | 739 / 243 / 238 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,cond_afib,iabp_on,pacemaker_on,vent_support | 1200 | -1170 |  | pap | 30 | 10 | median |  |  |  |  | 11-14 20:53 | 11-14 21:05 | 12m | Done |  | cpu | 11-14 21:10 | 11-14 21:22 | 11m | Done | 8 | sandbox | 216 | 2.80 | 3.69 | 6.44 | 77 | 3.56 | 7.88 | 15.54 | 72 | 2.78 | 3.96 | 7.21 | athena: copied |
 | frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel | f3 | exp/cardiac-units-log-c4 = 9f65028 | tzag_elita | Done | 11-14 20:30 | 11-14 20:53 | 11-14 21:29 | run_20261114_211618_frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel_f3 | 732 / 245 / 243 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,cond_afib,iabp_on,pacemaker_on,vent_support | 1200 | -1170 |  | pap | 30 | 10 | median |  |  |  |  | 11-14 20:53 | 11-14 21:10 | 16m | Done |  | cpu | 11-14 21:16 | 11-14 21:29 | 13m | Done | 9 | sandbox | 229 | 2.88 | 3.95 | 6.78 | 71 | 2.55 | 2.28 | 3.72 | 65 | 3.08 | 4.25 | 7.54 | athena: copied |
-| frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel | f4 | exp/cardiac-units-log-c4 = 9f65028 | tzag_elita | Done | 11-14 20:30 | 11-14 21:10 | 11-14 21:35 | run_20261114_212624_frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel_f4 | 724 / 251 / 245 |  |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,cond_afib,iabp_on,pacemaker_on,vent_support | 1200 | -1170 |  | pap | 30 | 10 | median |  |  |  |  | 11-14 21:10 | 11-14 21:23 | 12m | Done |  | cpu | 11-14 21:26 | 11-14 21:35 | 9m | Done | 6 | power-gpu | 214 | 2.74 | 3.75 | 6.97 | 80 | 1.91 | 2.70 | 5.41 | 71 | 2.95 | 3.98 | 6.92 | athena: copying |
+| frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel | f4 | exp/cardiac-units-log-c4 = 9f65028 | tzag_elita | Done | 11-14 20:30 | 11-14 21:10 | 11-14 21:35 | run_20261114_212624_frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel_f4 | 724 / 251 / 245 | 11-14 21:35 trn 357440 cancelled: the fold was already done |  | rocket | cvp,ecg,mcvp,hr | v3 | ecg,cvp | 60 | -30 | mcvp,hr,cond_afib,iabp_on,pacemaker_on,vent_support | 1200 | -1170 |  | pap | 30 | 10 | median |  |  |  |  | 11-14 21:10 | 11-14 21:23 | 12m | Done |  | cpu | 11-14 21:26 | 11-14 21:35 | 9m | Done | 6 | power-gpu | 214 | 2.74 | 3.75 | 6.97 | 80 | 1.91 | 2.70 | 5.41 | 71 | 2.95 | 3.98 | 6.92 | athena: copied |
 | frames_v3_cv5_top10 | f0 | da2d40d | tzag_elita | Done | 11-07 04:17 | 11-07 04:17 | 11-07 07:42 | run_20261107_041739_frames_v3_cv5_top10_f0 | 940 / 314 / 314 |  |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | echo_pa_htn,echo_ra,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib |  |  |  | pap | 30 | 10 | median |  |  |  |  |  |  |  | Done |  |  | 11-07 04:17 | 11-07 07:42 | 3h25 | Done | 6 | sandbox | 265 | 2.77 | 3.83 | 6.78 | 94 | 1.50 | 3.75 | 9.14 | 103 | 3.30 | 4.48 | 7.46 |  |
 | frames_v3_cv5_top10 | f2 | da2d40d | tzag_elita | Done | 11-07 04:31 | 11-07 04:31 | 11-07 07:37 | run_20261107_043155_frames_v3_cv5_top10_f2 | 941 / 313 / 314 |  |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | echo_pa_htn,echo_ra,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib |  |  |  | pap | 30 | 10 | median |  |  |  |  |  |  |  | Done |  |  | 11-07 04:31 | 11-07 07:37 | 3h05 | Done | 6 | sandbox | 283 | 2.26 | 3.24 | 5.97 | 84 | 6.73 | 7.06 | 6.60 | 95 | 3.35 | 4.62 | 8.00 |  |
 | frames_v3_cv5_top10 | f1 | da2d40d | tzag_elita | Done | 11-07 07:37 | 11-07 07:37 | 11-07 10:48 | run_20261107_073750_frames_v3_cv5_top10_f1 | 940 / 314 / 314 |  |  | rocket | cvp,ecg | v3 | ecg,cvp | 60 | -30 | echo_pa_htn,echo_ra,echo_rv,cond_pulm_htn,echo_tr,cond_heart_failure,known_pulm_htn,cond_rv_failure,known_cabg,known_afib |  |  |  | pap | 30 | 10 | median |  |  |  |  |  |  |  | Done |  |  | 11-07 07:37 | 11-07 10:48 | 3h10 | Done | 6 | sandbox | 273 | 2.37 | 3.28 | 5.72 | 95 | 3.32 | 3.36 | 3.25 | 94 | 3.39 | 4.87 | 8.31 |  |
@@ -261,7 +261,7 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Cluster | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | a100-public | 8 | 494/1024 | 530 | 63/64 | 1 | 0 | 0 |  |
+| athena | a100-public | 8 | 502/1024 | 522 | 64/64 | 0 | 0 | 0 |  |
 | athena | b200-shared | 2 | 132/256 | 124 | 16/16 | 0 | 0 | 0 |  |
 | athena | b200-sharir | 2 | 132/256 | 124 | 16/16 | 0 | 0 | 0 |  |
 | athena | debug | 1 | 0/128 | 128 | 0/8 | 8 | 0 | 0 |  |
@@ -272,17 +272,17 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | l40s-shared | 2 | 188/256 | 68 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 83/256 | 173 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 83/256 | 173 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 2928/4960 | 2032 | 223/248 | 25 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 20/128 | 108 |  |  | 1 | 0 |  |
-| tzag_elita | power-gpu | 31 | 2928/4960 | 2032 | 223/248 | 25 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 2760/4960 | 2200 | 214/248 | 34 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 12/128 | 116 |  |  | 1 | 0 |  |
+| tzag_elita | power-gpu | 31 | 2760/4960 | 2200 | 214/248 | 34 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 36/160 | 124 | 3/8 | 5 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 355774 | vscode | cpu | spot_720 | RUNNING | 8h27 | cpu-node-01 | 15:32:40 | 4c 32G |
-| tzag_elita | 357034 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h49 | sandbox | 2:10:33 | 4c 32G |
+| tzag_elita | 355774 | vscode | cpu | spot_720 | RUNNING | 8h32 | cpu-node-01 | 15:27:34 | 4c 32G |
+| tzag_elita | 357034 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h54 | sandbox | 2:05:27 | 4c 32G |
 
 ## Failures
 
@@ -346,7 +346,7 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Sweep | Fold | From | To | Status | Started | Took | Attempts | Error |
 |---|---|---|---|---|---|---|---|---|
-| frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel | f4 | tzag_elita | athena | copying | 11-14 21:36 | 0m | 1 |  |
+| frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel | f4 | tzag_elita | athena | done | 11-14 21:36 | 5m | 1 |  |
 | frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel | f3 | tzag_elita | athena | done | 11-14 21:31 | 4m | 1 |  |
 | frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel | f1 | tzag_elita | athena | done | 11-14 21:26 | 4m | 1 |  |
 | frames_v3_cv5_cardiac_mcvp1hz_20min_cond4_ppvwave_wd3_loglabel | f2 | tzag_elita | athena | done | 11-14 21:21 | 4m | 1 |  |
