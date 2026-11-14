@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-15 00:52:43 (Israel time)
+# DCOE sweeps -- status at 2026-11-15 00:57:46 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 81.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -267,22 +267,22 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | debug | 1 | 6/128 | 122 | 1/8 | 7 | 0 | 0 |  |
 | athena | h200-dds | 1 | 72/128 | 56 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 72/128 | 56 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-benisty | 1 | 72/128 | 56 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-benisty | 1 | 75/128 | 53 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-public | 1 | 119/128 | 9 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 191/256 | 65 | 16/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shared | 2 | 111/256 | 145 | 16/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shocher | 2 | 111/256 | 145 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 2696/4960 | 2264 | 248/248 | 0 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 22/128 | 106 |  |  | 1 | 0 |  |
-| tzag_elita | power-gpu | 31 | 2696/4960 | 2264 | 248/248 | 0 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 194/256 | 62 | 16/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shared | 2 | 102/256 | 154 | 16/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shocher | 2 | 102/256 | 154 | 16/16 | 0 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 2836/4960 | 2124 | 248/248 | 0 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 30/128 | 98 |  |  | 1 | 0 |  |
+| tzag_elita | power-gpu | 31 | 2836/4960 | 2124 | 248/248 | 0 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 36/160 | 124 | 2/8 | 6 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 355774 | vscode | cpu | spot_720 | RUNNING | 11h43 | cpu-node-01 | 12:16:08 | 4c 32G |
-| tzag_elita | 358071 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h04 | sandbox | 2:55:12 | 4c 32G |
+| tzag_elita | 355774 | vscode | cpu | spot_720 | RUNNING | 11h48 | cpu-node-01 | 12:11:05 | 4c 32G |
+| tzag_elita | 358071 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h09 | sandbox | 2:50:09 | 4c 32G |
 
 ## Failures
 
