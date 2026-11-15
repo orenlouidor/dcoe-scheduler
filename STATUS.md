@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-15 23:36:47 (Israel time)
+# DCOE sweeps -- status at 2026-11-15 23:41:49 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 81.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -267,21 +267,21 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | debug | 1 | 0/128 | 128 | 0/8 | 8 | 0 | 0 |  |
 | athena | h200-dds | 1 | 64/128 | 64 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 64/128 | 64 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-benisty | 1 | 63/128 | 65 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-public | 1 | 53/128 | 75 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 116/256 | 140 | 16/16 | 0 | 0 | 0 |  |
+| athena | l40s-benisty | 1 | 79/128 | 49 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-public | 1 | 119/128 | 9 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 198/256 | 58 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 72/256 | 184 | 10/16 | 6 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 72/256 | 184 | 10/16 | 6 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 2850/4960 | 2110 | 247/248 | 1 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 2846/4960 | 2114 | 246/248 | 2 | 0 | 0 |  |
 | tzag_elita | cpu | 2 | 86/128 | 42 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 2850/4960 | 2110 | 247/248 | 1 | 0 | 0 |  |
-| tzag_elita | sandbox | 1 | 84/160 | 76 | 8/8 | 0 | 1 | 0 |  |
+| tzag_elita | power-gpu | 31 | 2846/4960 | 2114 | 246/248 | 2 | 0 | 0 |  |
+| tzag_elita | sandbox | 1 | 84/160 | 76 | 7/8 | 1 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 361526 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 3h44 | sandbox | 15:48 | 4c 32G |
+| tzag_elita | 361526 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 3h49 | sandbox | 10:46 | 4c 32G |
 
 ## Failures
 
