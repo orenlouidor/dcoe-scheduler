@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-16 00:57:34 (Israel time)
+# DCOE sweeps -- status at 2026-11-16 01:02:37 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 81.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -264,24 +264,24 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | a100-public | 8 | 443/1024 | 581 | 56/64 | 0 | 0 | 0 |  |
 | athena | b200-shared | 2 | 160/256 | 96 | 16/16 | 0 | 0 | 0 |  |
 | athena | b200-sharir | 2 | 160/256 | 96 | 16/16 | 0 | 0 | 0 |  |
-| athena | debug | 1 | 4/128 | 124 | 1/8 | 7 | 0 | 0 |  |
+| athena | debug | 1 | 16/128 | 112 | 2/8 | 6 | 0 | 0 |  |
 | athena | h200-dds | 1 | 64/128 | 64 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 64/128 | 64 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-benisty | 1 | 84/128 | 44 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-public | 1 | 114/128 | 14 | 7/8 | 1 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 198/256 | 58 | 15/16 | 1 | 0 | 0 |  |
+| athena | l40s-public | 1 | 117/128 | 11 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 201/256 | 55 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 88/256 | 168 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 88/256 | 168 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 2910/4960 | 2050 | 246/248 | 2 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 2934/4960 | 2026 | 246/248 | 2 | 0 | 0 |  |
 | tzag_elita | cpu | 2 | 76/128 | 52 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 2910/4960 | 2050 | 246/248 | 2 | 0 | 0 |  |
-| tzag_elita | sandbox | 1 | 54/160 | 106 | 5/8 | 3 | 1 | 0 |  |
+| tzag_elita | power-gpu | 31 | 2934/4960 | 2026 | 246/248 | 2 | 0 | 0 |  |
+| tzag_elita | sandbox | 1 | 40/160 | 120 | 3/8 | 5 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 362321 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h03 | sandbox | 2:56:14 | 4c 32G |
+| tzag_elita | 362321 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h08 | sandbox | 2:51:11 | 4c 32G |
 
 ## Failures
 
