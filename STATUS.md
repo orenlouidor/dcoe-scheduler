@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-16 09:55:58 (Israel time)
+# DCOE sweeps -- status at 2026-11-16 10:00:41 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 81.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -268,20 +268,20 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | h200-dds | 1 | 64/128 | 64 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 64/128 | 64 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-benisty | 1 | 66/128 | 62 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-public | 1 | 76/128 | 52 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 142/256 | 114 | 16/16 | 0 | 0 | 0 |  |
+| athena | l40s-public | 1 | 68/128 | 60 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 134/256 | 122 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 89/256 | 167 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 89/256 | 167 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 2672/4960 | 2288 | 228/248 | 20 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 2532/4960 | 2428 | 211/248 | 37 | 0 | 0 |  |
 | tzag_elita | cpu | 2 | 88/128 | 40 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 2672/4960 | 2288 | 228/248 | 20 | 0 | 0 |  |
-| tzag_elita | sandbox | 1 | 84/160 | 76 | 6/8 | 2 | 1 | 0 |  |
+| tzag_elita | power-gpu | 31 | 2532/4960 | 2428 | 211/248 | 37 | 0 | 0 |  |
+| tzag_elita | sandbox | 1 | 64/160 | 96 | 5/8 | 3 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 362723 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h59 | sandbox | 2:00:13 | 4c 32G |
+| tzag_elita | 362723 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 2h04 | sandbox | 1:55:30 | 4c 32G |
 
 ## Failures
 
