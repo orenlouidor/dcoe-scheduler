@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16 06:51:14",
+ "generated": "2026-11-16 06:56:17",
  "clusters": [
   "athena",
   "tzag_elita"
@@ -14829,9 +14829,9 @@
     "sandbox",
     "sandbox_spot_720",
     "RUNNING",
-    "2h56",
+    "3h01",
     "sandbox",
-    "1:03:54",
+    "58:51",
     "4c 32G"
    ]
   ]
