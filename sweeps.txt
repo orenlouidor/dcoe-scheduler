@@ -51,6 +51,9 @@ frames_v3_cv5_mcvp1hz_top10_30min_ks2 @ feat/rnn-council   # 2026-11-17 michael-
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_ks2 @ feat/rnn-council   # 2026-11-17 michael-v: ppvwave, kernel seed 2
 frames_v3_cv5_mcvp1hz_top10_30min_abl_wd3_ks2 @ feat/rnn-council   # 2026-11-17 michael-v: wd3 only, kernel seed 2
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd3_ks2 @ feat/rnn-council   # 2026-11-17 michael-v: ppvwave + wd3, kernel seed 2
+frames_v3_cv5_mcvp1hz_top10_30min_abl_q40 @ feat/rnn-council   # 2026-11-17 michael-v: ablation: quantile (pinball) loss tau 0.4 only
+frames_v3_cv5_mcvp1hz_top10_30min_abl_q60 @ feat/rnn-council   # 2026-11-17 michael-v: ablation: quantile loss tau 0.6 only
+frames_v3_cv5_mcvp1hz_top10_30min_abl_all @ feat/rnn-council   # 2026-11-17 michael-v: ablation: everything together (PPV pooling + quantile 0.5 + weight decay 0.1)
 # done
 frames_v3_cv5_top10
 frames_v3_cv5_unitflag
