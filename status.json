@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17 08:37:19",
+ "generated": "2026-11-17 08:42:03",
  "clusters": [
   "athena",
   "tzag_elita"
@@ -15082,9 +15082,9 @@
    "a100-public,rtx6k-shared,l40s-shared,l40s-public",
    "11-17 08:10",
    "(11-17 08:53)",
-   "26m",
+   "31m",
    "(11-17 08:53)",
-   "4",
+   "5",
    "l40s-shared",
    "",
    "2.51",
@@ -15155,7 +15155,7 @@
    "3.15",
    "4.22",
    "7.45",
-   "tzag_elita: copying"
+   "tzag_elita: copied"
   ],
   [
    "frames_v3_cv5_mcvp1hz_top10_30min_abl_q60",
@@ -15196,9 +15196,9 @@
    "a100-public,rtx6k-shared,l40s-shared,l40s-public",
    "11-17 08:18",
    "(11-17 09:01)",
-   "19m",
+   "23m",
    "(11-17 09:01)",
-   "3",
+   "4",
    "l40s-shared",
    "",
    "2.29",
@@ -18599,9 +18599,9 @@
     "l40s-shared",
     "24h_1g",
     "RUNNING",
-    "26m",
+    "31m",
     "n321",
-    "7:33:30",
+    "7:28:47",
     "12c 100G"
    ],
    [
@@ -18611,9 +18611,9 @@
     "l40s-shared",
     "24h_1g",
     "RUNNING",
-    "19m",
+    "23m",
     "n321",
-    "7:41:00",
+    "7:36:17",
     "12c 100G"
    ],
    [
@@ -18623,7 +18623,7 @@
     "sandbox",
     "sandbox_spot_720",
     "PENDING",
-    "13h50",
+    "13h54",
     "ReqNodeNotAvail, May be reserved for other job",
     "4:00:00",
     "4c 32G"
@@ -18648,9 +18648,9 @@
     "f3",
     "athena",
     "tzag_elita",
-    "copying",
+    "done",
     "11-17 08:37",
-    "0m",
+    "4m",
     "1",
     ""
    ],
