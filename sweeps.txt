@@ -54,6 +54,12 @@ frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_wd3_ks2 @ feat/rnn-council   # 2026-11
 frames_v3_cv5_mcvp1hz_top10_30min_abl_q40 @ feat/rnn-council   # 2026-11-17 michael-v: ablation: quantile (pinball) loss tau 0.4 only
 frames_v3_cv5_mcvp1hz_top10_30min_abl_q60 @ feat/rnn-council   # 2026-11-17 michael-v: ablation: quantile loss tau 0.6 only
 frames_v3_cv5_mcvp1hz_top10_30min_abl_all @ feat/rnn-council   # 2026-11-17 michael-v: ablation: everything together (PPV pooling + quantile 0.5 + weight decay 0.1)
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune_wd1 @ feat/rnn-council   # 2026-11-17 michael-v: tuning: PPV + weight decay 1
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune_wd5 @ feat/rnn-council   # 2026-11-17 michael-v: tuning: PPV + weight decay 5
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune_wd10 @ feat/rnn-council   # 2026-11-17 michael-v: tuning: PPV + weight decay 10
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune_wd3_invstd @ feat/rnn-council   # 2026-11-17 michael-v: tuning: PPV + wd 3, inverse-std component weights (sPAP)
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune_q40_wd0p1 @ feat/rnn-council   # 2026-11-17 michael-v: tuning: PPV + quantile 0.4 + wd 0.1
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_mae_causaldx @ feat/rnn-council   # 2026-11-17 michael-v: PPV + L1 with only the causal diagnosis columns (known_*, echo_*)
 # done
 frames_v3_cv5_top10
 frames_v3_cv5_unitflag
