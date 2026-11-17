@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17 18:33:27",
+ "generated": "2026-11-17 18:38:32",
  "clusters": [
   "athena",
   "tzag_elita"
@@ -16221,10 +16221,10 @@
    "",
    "a100-public,rtx6k-shared,l40s-shared,l40s-public",
    "11-17 17:44",
-   "(11-17 18:45)",
-   "48m",
-   "(11-17 18:45)",
-   "16",
+   "(11-17 18:48)",
+   "53m",
+   "(11-17 18:48)",
+   "18",
    "a100-public",
    "",
    "2.62",
@@ -20339,9 +20339,9 @@
     "a100-public",
     "24h_1g",
     "RUNNING",
-    "48m",
+    "53m",
     "n313",
-    "7:11:27",
+    "7:06:22",
     "12c 100G"
    ],
    [
@@ -20351,7 +20351,7 @@
     "sandbox",
     "sandbox_spot_720",
     "PENDING",
-    "23h46",
+    "23h51",
     "ReqNodeNotAvail, May be reserved for other job",
     "4:00:00",
     "4c 32G"
