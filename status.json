@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17 18:40:40",
+ "generated": "2026-11-17 18:45:40",
  "clusters": [
   "athena",
   "tzag_elita"
@@ -16238,7 +16238,7 @@
    "2.75",
    "3.95",
    "7.29",
-   "tzag_elita: copying"
+   "tzag_elita: copied"
   ],
   [
    "frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune_wd10",
@@ -20140,10 +20140,10 @@
     "athena",
     "a100-public",
     "8",
-    "427/1024",
-    "597",
-    "59/64",
-    "5",
+    "379/1024",
+    "645",
+    "55/64",
+    "9",
     "0",
     "0",
     ""
@@ -20339,7 +20339,7 @@
     "sandbox",
     "sandbox_spot_720",
     "PENDING",
-    "23h53",
+    "23h58",
     "ReqNodeNotAvail, May be reserved for other job",
     "4:00:00",
     "4c 32G"
@@ -20364,9 +20364,9 @@
     "f1",
     "athena",
     "tzag_elita",
-    "copying",
+    "done",
     "11-17 18:40",
-    "0m",
+    "4m",
     "1",
     ""
    ],
