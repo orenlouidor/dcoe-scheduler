@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18 00:51:52",
+ "generated": "2026-11-18 00:56:52",
  "clusters": [
   "athena",
   "tzag_elita"
@@ -20248,8 +20248,8 @@
     "athena",
     "rtx6k-shared",
     "2",
-    "154/256",
-    "102",
+    "159/256",
+    "97",
     "16/16",
     "0",
     "0",
@@ -20260,8 +20260,8 @@
     "athena",
     "rtx6k-shocher",
     "2",
-    "154/256",
-    "102",
+    "159/256",
+    "97",
     "16/16",
     "0",
     "0",
@@ -20339,7 +20339,7 @@
     "sandbox",
     "sandbox_spot_720",
     "PENDING",
-    "30h04",
+    "30h09",
     "ReqNodeNotAvail, May be reserved for other job",
     "4:00:00",
     "4c 32G"
