@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-17 23:21:03 (Israel time)
+# DCOE sweeps -- status at 2026-11-17 23:25:57 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 81.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -362,11 +362,11 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | debug | 1 | 8/128 | 120 | 1/8 | 7 | 0 | 0 |  |
 | athena | h200-dds | 1 | 64/128 | 64 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 64/128 | 64 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-benisty | 1 | 63/128 | 65 | 7/8 | 1 | 0 | 0 |  |
-| athena | l40s-public | 1 | 53/128 | 75 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 116/256 | 140 | 15/16 | 1 | 0 | 0 |  |
-| athena | rtx6k-shared | 2 | 151/256 | 105 | 15/16 | 1 | 0 | 0 |  |
-| athena | rtx6k-shocher | 2 | 151/256 | 105 | 15/16 | 1 | 0 | 0 |  |
+| athena | l40s-benisty | 1 | 79/128 | 49 | 7/8 | 1 | 0 | 0 |  |
+| athena | l40s-public | 1 | 117/128 | 11 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 196/256 | 60 | 15/16 | 1 | 0 | 0 |  |
+| athena | rtx6k-shared | 2 | 154/256 | 102 | 16/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shocher | 2 | 154/256 | 102 | 16/16 | 0 | 0 | 0 |  |
 | tzag_elita | compute-gpu | 31 | 0/4960 | 0 | 0/248 | 0 | 0 | 0 |  |
 | tzag_elita | cpu | 2 | 54/128 | 74 |  |  | 0 | 0 |  |
 | tzag_elita | power-gpu | 31 | 0/4960 | 0 | 0/248 | 0 | 0 | 0 |  |
@@ -376,7 +376,7 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 363978 | viewer_8765 | sandbox | sandbox_spot_720 | PENDING | 28h33 | ReqNodeNotAvail, May be reserved for other job | 4:00:00 | 4c 32G |
+| tzag_elita | 363978 | viewer_8765 | sandbox | sandbox_spot_720 | PENDING | 28h38 | ReqNodeNotAvail, May be reserved for other job | 4:00:00 | 4c 32G |
 
 ## Failures
 
