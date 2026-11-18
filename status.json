@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18 12:52:56",
+ "generated": "2026-11-18 12:58:04",
  "clusters": [
   "athena",
   "tzag_elita"
@@ -20140,10 +20140,10 @@
     "athena",
     "a100-public",
     "8",
-    "373/1024",
-    "651",
-    "62/64",
-    "2",
+    "389/1024",
+    "635",
+    "64/64",
+    "0",
     "0",
     "0",
     ""
@@ -20339,7 +20339,7 @@
     "sandbox",
     "sandbox_spot_720",
     "PENDING",
-    "42h05",
+    "42h10",
     "ReqNodeNotAvail, May be reserved for other job",
     "4:00:00",
     "4c 32G"
