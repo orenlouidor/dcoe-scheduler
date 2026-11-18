@@ -60,6 +60,25 @@ frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune_wd10 @ feat/rnn-council   # 2026-
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune_wd3_invstd @ feat/rnn-council   # 2026-11-17 michael-v: tuning: PPV + wd 3, inverse-std component weights (sPAP)
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune_q40_wd0p1 @ feat/rnn-council   # 2026-11-17 michael-v: tuning: PPV + quantile 0.4 + wd 0.1
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_mae_causaldx @ feat/rnn-council   # 2026-11-17 michael-v: PPV + L1 with only the causal diagnosis columns (known_*, echo_*)
+mover_pap_ref @ mover/pipeline               # 2026-11-18 (Snir): MOVER SIS PAP (+ EMR CVPm), THE REFERENCE: MIMIC wd3 recipe, ECG+ABP waveforms + 30 min EMR mCVP + HR at 1 Hz; data on IUCC only
+mover_pap_ecg_mcvp @ mover/pipeline          # idem: inputs: ECG + mCVP + HR (the MIMIC wd3 analogue, no ABP)
+mover_pap_ecgabp @ mover/pipeline            # idem: inputs: ECG + ABP, no 1 Hz
+mover_pap_ecg @ mover/pipeline               # idem: inputs: ECG only
+mover_pap_abp_mcvp @ mover/pipeline          # idem: inputs: ABP + mCVP + HR, no ECG
+mover_pap_mcvp1hz @ mover/pipeline           # idem: inputs: mCVP + HR at 1 Hz only, no waveform
+mover_pap_ref_mcvp60 @ mover/pipeline        # idem: the reference with 60 min of mCVP
+mover_pap_ref_abp1hz @ mover/pipeline        # idem: the reference + ABP 1 Hz values (map/sbp/dbp/sv/ppv)
+mover_pap_ref_all @ mover/pipeline           # idem: the reference + every MOVER extra (ABP 1 Hz, EMR vitals/ventilation, drugs/airway, conditions)
+mover_pap_ref_label1min @ mover/pipeline     # idem: the reference with a per-minute label (60 s / 60 s)
+mover_pap_m_rocketridge @ mover/pipeline     # idem: model: ROCKET + ridge, penalty chosen on validation
+mover_pap_m_gbdt @ mover/pipeline            # idem: model: gradient boosting on the 13 statistics
+mover_pap_m_minirocket @ mover/pipeline      # idem: model: MiniRocket (wd 0)
+mover_pap_m_featnet @ mover/pipeline         # idem: model: featnet
+mover_pap_m_resnet @ mover/pipeline          # idem: model: resnet1d
+mover_pap_m_transformer @ mover/pipeline     # idem: model: transformer_ms
+mover_pap_m_gru @ mover/pipeline             # idem: model: GRU (rnn1d)
+mover_pap_m_inception @ mover/pipeline       # idem: model: inception1d
+mover_pap_m_tabular1hz @ mover/pipeline      # idem: model: tabular GBDT on per-minute 1 Hz medians, no waveform
 # done
 frames_v3_cv5_top10
 frames_v3_cv5_unitflag
