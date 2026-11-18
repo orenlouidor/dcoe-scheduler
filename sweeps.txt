@@ -79,6 +79,17 @@ mover_pap_m_transformer @ mover/pipeline     # idem: model: transformer_ms
 mover_pap_m_gru @ mover/pipeline             # idem: model: GRU (rnn1d)
 mover_pap_m_inception @ mover/pipeline       # idem: model: inception1d
 mover_pap_m_tabular1hz @ mover/pipeline      # idem: model: tabular GBDT on per-minute 1 Hz medians, no waveform
+mover_ci_ref @ mover/pipeline                # 2026-11-18 (Snir): MOVER EPIC CI, THE REFERENCE: wd3 recipe (wd 0.03 = wd3 rescaled to CI variance), ABP + ECG waveforms + 30 min HR/MAP at 1 Hz; label = flowsheet CI (l/min/m2, likely device-derived); 104 patients; data on IUCC only
+mover_ci_abp @ mover/pipeline                # idem: inputs: ABP only
+mover_ci_ref_pleth @ mover/pipeline          # idem: the reference + PLETH waveform
+mover_ci_ref_cond @ mover/pipeline           # idem: the reference + 12 EPIC conditions (ICD-10)
+mover_ci_ref_demo @ mover/pipeline           # idem: the reference + demographics
+mover_ci_m_demographics @ mover/pipeline     # idem: baseline: demographics only (the floor to beat)
+mover_ci_m_rocketridge @ mover/pipeline      # idem: model: ROCKET + ridge, penalty chosen on validation
+mover_ci_m_gbdt @ mover/pipeline             # idem: model: gradient boosting on the 13 statistics
+mover_ci_m_minirocket @ mover/pipeline       # idem: model: MiniRocket
+mover_ci_m_resnet @ mover/pipeline           # idem: model: resnet1d
+mover_ci_m_transformer @ mover/pipeline      # idem: model: transformer_ms
 # done
 frames_v3_cv5_top10
 frames_v3_cv5_unitflag
