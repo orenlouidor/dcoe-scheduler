@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18 15:06:24",
+ "generated": "2026-11-18 15:11:11",
  "clusters": [
   "athena",
   "tzag_elita"
@@ -20272,10 +20272,10 @@
     "tzag_elita",
     "compute-gpu",
     "31",
-    "2230/4960",
-    "2730",
-    "174/248",
-    "71",
+    "2218/4960",
+    "2742",
+    "173/248",
+    "72",
     "0",
     "0",
     ""
@@ -20296,10 +20296,10 @@
     "tzag_elita",
     "power-gpu",
     "31",
-    "2230/4960",
-    "2730",
-    "174/248",
-    "71",
+    "2218/4960",
+    "2742",
+    "173/248",
+    "72",
     "0",
     "0",
     ""
@@ -20309,12 +20309,12 @@
     "sandbox",
     "1",
     "0/160",
-    "0",
+    "160",
     "0/8",
-    "0",
+    "8",
     "0",
     "1",
-    "ReqNodeNotAvail, May be reserved for other job x1"
+    "launch failed requeued held x1"
    ]
   ]
  },
@@ -20339,8 +20339,8 @@
     "sandbox",
     "sandbox_spot_720",
     "PENDING",
-    "44h19",
-    "ReqNodeNotAvail, May be reserved for other job",
+    "4m",
+    "launch failed requeued held",
     "4:00:00",
     "4c 32G"
    ]
