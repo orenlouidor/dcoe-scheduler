@@ -100,3 +100,13 @@ frames_v3_cv5_mcvp1hz_top10_5min @ main    # re-queued 2026-11-10 11:58 at main 
 frames_v3_cv5_mcvp1hz_top10_10min @ main   # idem
 frames_v3_cv5_mcvp1hz_top10_25min   # 2026-11-10 14:20: 25 min of 1 Hz mCVP + HR (main, curator #33)
 frames_v3_cv5_mcvp1hz_top10_30min   # idem, 30 min
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune2_qcomp_wd0p1 @ feat/rnn-council   # 2026-11-19 michael-v: round 2: per-component pinball 0.4/0.5/0.4 (d/s/m), wd 0.1
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune2_q40_wd0p1_ks1 @ feat/rnn-council   # 2026-11-19 michael-v: round 2: kernel seed of q40_wd0p1_ks1
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune2_q40_wd0p1_ks2 @ feat/rnn-council   # 2026-11-19 michael-v: round 2: kernel seed of q40_wd0p1_ks2
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune2_wd1_ks1 @ feat/rnn-council   # 2026-11-19 michael-v: round 2: kernel seed of wd1_ks1
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune2_wd1_ks2 @ feat/rnn-council   # 2026-11-19 michael-v: round 2: kernel seed of wd1_ks2
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune2_q40_wd0p03 @ feat/rnn-council   # 2026-11-19 michael-v: round 2: pinball 0.4 + wd 0.03
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune2_q40_wd0p3 @ feat/rnn-council   # 2026-11-19 michael-v: round 2: pinball 0.4 + wd 0.3
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune2_q35_wd0p1 @ feat/rnn-council   # 2026-11-19 michael-v: round 2: pinball 0.35 + wd 0.1
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune2_q45_wd0p1 @ feat/rnn-council   # 2026-11-19 michael-v: round 2: pinball 0.45 + wd 0.1
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune2_wd0p3 @ feat/rnn-council   # 2026-11-19 michael-v: round 2: MSE + wd 0.3
