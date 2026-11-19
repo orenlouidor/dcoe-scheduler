@@ -137,3 +137,4 @@ frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune4t_abpopt_beatgru_wd1 @ feat/rnn-c
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune3u_skip_wd1 @ feat/rnn-council   # 2026-11-19 michael-v: re-run of tune3_skip_wd1 (control of RNN A); fed when tzag_elita had room
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune2u_wd1_ks2 @ feat/rnn-council   # 2026-11-19 michael-v: re-run of tune2_wd1_ks2 (seed ensemble); fed when tzag_elita had room
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune3u_log_wd1 @ feat/rnn-council   # 2026-11-19 michael-v: re-run of tune3_log_wd1; fed when tzag_elita had room
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune3u_skip_q40_wd0p1 @ feat/rnn-council   # 2026-11-19 michael-v: re-run of tune3_skip_q40_wd0p1; fed when tzag_elita had room
