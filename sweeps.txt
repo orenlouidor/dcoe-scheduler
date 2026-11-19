@@ -116,3 +116,5 @@ frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune3_gru1hz_sole_skip_wd1 @ feat/rnn-
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune3_log_wd1 @ feat/rnn-council   # 2026-11-19 michael-v: round 3: log label (output_link log_target)
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune3_nocond_wd1 @ feat/rnn-council   # 2026-11-19 michael-v: round 3: robustness, without the cond_* columns
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune3_skip_q40_wd0p1 @ feat/rnn-council   # 2026-11-19 michael-v: round 3: pinball 0.4 + mCVP skip
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune4_abpopt_wd1 @ feat/rnn-council   # 2026-11-19 michael-v: round 4: + optional ABP waveform and 1 Hz MAP (new curation)
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune4_abpopt_beatgru_wd1 @ feat/rnn-council   # 2026-11-19 michael-v: round 4: idem + beat biGRU on ECG+CVP+ABP (same curation)
