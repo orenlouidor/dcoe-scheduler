@@ -92,7 +92,8 @@ mover_ci_m_resnet @ mover/pipeline           # idem: model: resnet1d
 mover_ci_m_transformer @ mover/pipeline      # idem: model: transformer_ms
 mover_ci_ref_demo_drop @ mover/pipeline
 mover_ci_m_demographics_drop @ mover/pipeline
-mover_ci_mimic_co @ mover/pipeline
+- mover_ci_mimic_co @ mover/pipeline
+mover_ci_mimic_co_drop @ mover/pipeline
 # done
 frames_v3_cv5_top10
 frames_v3_cv5_unitflag
