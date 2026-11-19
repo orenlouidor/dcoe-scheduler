@@ -110,3 +110,9 @@ frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune2_q40_wd0p3 @ feat/rnn-council   #
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune2_q35_wd0p1 @ feat/rnn-council   # 2026-11-19 michael-v: round 2: pinball 0.35 + wd 0.1
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune2_q45_wd0p1 @ feat/rnn-council   # 2026-11-19 michael-v: round 2: pinball 0.45 + wd 0.1
 frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune2_wd0p3 @ feat/rnn-council   # 2026-11-19 michael-v: round 2: MSE + wd 0.3
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune3_skip_wd1 @ feat/rnn-council   # 2026-11-19 michael-v: round 3: decay-exempt mCVP skip (control of rnnA)
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune3_beatgru_wd1 @ feat/rnn-council   # 2026-11-19 michael-v: round 3: RNN B, cross-channel ECG+CVP beat biGRU beside ROCKET
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune3_gru1hz_sole_skip_wd1 @ feat/rnn-council   # 2026-11-19 michael-v: round 3: RNN A, sole 1 Hz GRU (mean, trend, swing) + skip
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune3_log_wd1 @ feat/rnn-council   # 2026-11-19 michael-v: round 3: log label (output_link log_target)
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune3_nocond_wd1 @ feat/rnn-council   # 2026-11-19 michael-v: round 3: robustness, without the cond_* columns
+frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune3_skip_q40_wd0p1 @ feat/rnn-council   # 2026-11-19 michael-v: round 3: pinball 0.4 + mCVP skip
