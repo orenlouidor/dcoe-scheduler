@@ -149,3 +149,5 @@ frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune5_ctxecho_wd1 @ feat/rnn-council  
 - frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune5_ctxecho_q40_wd0p03 @ feat/rnn-council   # CANCELLED 10:50 (overflowed to the full athena disk; runs direct on IUCC instead); 2026-11-19 michael-v: round 5: 42 columns + pinball 0.4 + wd 0.03 (same curation); fed when tzag_elita had room
 mover_pap_mcvp1hz_w5 @ mover/pipeline   # 2026-11-20 snir: MOVER PAP best arm (mCVP+HR 1 Hz) with 5 min of history instead of 30
 mover_pap_mcvp1hz_w10 @ mover/pipeline   # 2026-11-20 snir: same with 10 min
+joint_pap_mcvp1hz @ mover/pipeline   # 2026-11-20 snir: mcvp1hz recipe trained on MIMIC (CSRU/CCU stays) + MOVER together; data on IUCC only (Datasets/MOVER/Joint/mimic_cc_v1)
+mimiccc_pap_mcvp1hz @ mover/pipeline   # 2026-11-20 snir: its MIMIC-only control (same recipe, MIMIC CSRU/CCU alone)
