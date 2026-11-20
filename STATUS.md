@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-20 10:30:44 (Israel time)
+# DCOE sweeps -- status at 2026-11-20 10:35:22 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 81.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -736,22 +736,22 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune5_ctxecho_q40_wd0p03 | f1 | feat/rnn-council = 70b3c5f |  | Cancelled | 11-19 10:21 |  |  |  | 940 / 314 / 314 | 11-19 10:42 curation 318153 OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp_PAPcv5_f1_train_f591e8df0bf6'; 11-19 10:42 cur 318153 OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp_PAPcv5_f1_train_f591e8df0bf6'; rerun 4; 11-19 10:42 cur rerun 3 times already; marked Failed, job 318153 cancelled | Curation athena/a100-public,rtx6k-shared,l40s-shared,l40s-public job 318111: OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp_PAPcv5_f1_train_f591e8df0bf6' -> athena/a100-public,rtx6k-shared,l40s-shared,l40s-public / Curation athena/a100-public,rtx6k-shared,l40s-shared,l40s-public job 318125: OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp_PAPcv5_f1_train_f591e8df0bf6' -> athena/a100-public,rtx6k-shared,l40s-shared,l40s-public / Curation athena/a100-public,rtx6k-shared,l40s-shared,l40s-public job 318140: OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp_PAPcv5_f1_train_f591e8df0bf6' -> athena/a100-public,rtx6k-shared,l40s-shared,l40s-public / Curation athena/a100-public,rtx6k-shared,l40s-shared,l40s-public job 318153: OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp_PAPcv5_f1_train_f591e8df0bf6' -> waits for a slot |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune5_ctxecho_q40_wd0p03 | f3 | feat/rnn-council = 70b3c5f |  | Cancelled | 11-19 10:21 |  |  |  | 942 / 313 / 313 |  | Training tzag_elita/power-gpu job 366320: CANCELLED -> waits for a slot |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_mcvp1hz_top10_30min_ppvwave_tune5_ctxecho_q40_wd0p03 | f4 | feat/rnn-council = 70b3c5f |  | Cancelled | 11-19 10:21 |  |  |  | 941 / 314 / 313 |  | Training tzag_elita/power-gpu job 366321: CANCELLED -> waits for a slot |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_pap_mcvp1hz_w5 | f0 | mover/pipeline = a5a1ebc | tzag_elita | In Curation | 11-20 10:29 | 11-20 10:30 |  |  | 155 / 39 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 300 | -270 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 10:30 |  | 0m |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_pap_mcvp1hz_w5 | f2 | mover/pipeline = a5a1ebc | tzag_elita | In Curation | 11-20 10:29 | 11-20 10:30 |  |  | 155 / 39 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 300 | -270 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 10:30 |  | 0m |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_pap_mcvp1hz_w5 | f1 | mover/pipeline = a5a1ebc | tzag_elita | Before Curation | 11-20 10:29 |  |  |  | 155 / 39 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 300 | -270 |  | pap | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_pap_mcvp1hz_w5 | f3 | mover/pipeline = a5a1ebc | tzag_elita | Before Curation | 11-20 10:29 |  |  |  | 155 / 38 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 300 | -270 |  | pap | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_pap_mcvp1hz_w5 | f4 | mover/pipeline = a5a1ebc | tzag_elita | Before Curation | 11-20 10:29 |  |  |  | 156 / 39 / 38 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 300 | -270 |  | pap | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_pap_mcvp1hz_w10 | f0 | mover/pipeline = a5a1ebc | tzag_elita | Before Curation | 11-20 10:29 |  |  |  | 155 / 39 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 600 | -570 |  | pap | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_pap_mcvp1hz_w10 | f2 | mover/pipeline = a5a1ebc |  | Before Curation | 11-20 10:29 |  |  |  | 155 / 39 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 600 | -570 |  | pap | 30 | 10 | median |  |  |  | waits for its turn |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_pap_mcvp1hz_w10 | f1 | mover/pipeline = a5a1ebc |  | Before Curation | 11-20 10:29 |  |  |  | 155 / 39 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 600 | -570 |  | pap | 30 | 10 | median |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_pap_mcvp1hz_w10 | f3 | mover/pipeline = a5a1ebc |  | Before Curation | 11-20 10:29 |  |  |  | 155 / 38 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 600 | -570 |  | pap | 30 | 10 | median |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_pap_mcvp1hz_w10 | f4 | mover/pipeline = a5a1ebc |  | Before Curation | 11-20 10:29 |  |  |  | 156 / 39 / 38 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 600 | -570 |  | pap | 30 | 10 | median |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_pap_mcvp1hz_w5 | f0 | mover/pipeline = a5a1ebc | tzag_elita | Before Training | 11-20 10:29 |  |  |  | 155 / 39 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 300 | -270 |  | pap | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-20 10:31 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_pap_mcvp1hz_w5 | f2 | mover/pipeline = a5a1ebc | tzag_elita | Before Training | 11-20 10:29 |  |  |  | 155 / 39 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 300 | -270 |  | pap | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-20 10:31 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_pap_mcvp1hz_w5 | f1 | mover/pipeline = a5a1ebc | tzag_elita | Before Training | 11-20 10:29 |  |  |  | 155 / 39 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 300 | -270 |  | pap | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-20 10:32 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_pap_mcvp1hz_w5 | f3 | mover/pipeline = a5a1ebc | tzag_elita | Before Training | 11-20 10:29 |  |  |  | 155 / 38 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 300 | -270 |  | pap | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-20 10:32 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_pap_mcvp1hz_w5 | f4 | mover/pipeline = a5a1ebc | tzag_elita | Before Training | 11-20 10:29 |  |  |  | 156 / 39 / 38 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 300 | -270 |  | pap | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-20 10:32 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_pap_mcvp1hz_w10 | f0 | mover/pipeline = a5a1ebc | tzag_elita | Before Training | 11-20 10:29 |  |  |  | 155 / 39 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 600 | -570 |  | pap | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-20 10:31 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_pap_mcvp1hz_w10 | f2 | mover/pipeline = a5a1ebc | tzag_elita | In Curation | 11-20 10:29 | 11-20 10:35 |  |  | 155 / 39 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 600 | -570 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 10:35 |  | 0m |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_pap_mcvp1hz_w10 | f1 | mover/pipeline = a5a1ebc | tzag_elita | Before Curation | 11-20 10:29 |  |  |  | 155 / 39 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 600 | -570 |  | pap | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_pap_mcvp1hz_w10 | f3 | mover/pipeline = a5a1ebc | tzag_elita | Before Curation | 11-20 10:29 |  |  |  | 155 / 38 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 600 | -570 |  | pap | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_pap_mcvp1hz_w10 | f4 | mover/pipeline = a5a1ebc | tzag_elita | Before Curation | 11-20 10:29 |  |  |  | 156 / 39 / 38 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 600 | -570 |  | pap | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 ## Compute
 
 | Cluster | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | a100-public | 8 | 621/1024 | 403 | 64/64 | 0 | 0 | 0 |  |
+| athena | a100-public | 8 | 620/1024 | 404 | 64/64 | 0 | 0 | 0 |  |
 | athena | b200-shared | 2 | 244/256 | 12 | 16/16 | 0 | 0 | 0 |  |
 | athena | b200-sharir | 2 | 244/256 | 12 | 16/16 | 0 | 0 | 0 |  |
 | athena | debug | 1 | 15/128 | 113 | 3/8 | 5 | 0 | 0 |  |
@@ -762,22 +762,26 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | l40s-shared | 2 | 117/256 | 139 | 15/16 | 1 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 145/256 | 111 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 145/256 | 111 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 3710/4960 | 1250 | 187/248 | 61 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 36/128 | 92 |  |  | 2 | 4 | Dependency x3, None x1 |
-| tzag_elita | power-gpu | 31 | 3710/4960 | 1250 | 187/248 | 61 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 3670/4960 | 1290 | 184/248 | 64 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 36/128 | 92 |  |  | 1 | 3 | Dependency x3 |
+| tzag_elita | power-gpu | 31 | 3670/4960 | 1290 | 184/248 | 64 | 0 | 6 | Priority x6 |
 | tzag_elita | sandbox | 1 | 32/160 | 128 | 2/8 | 6 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 369479 | cur_mover_pap_mcvp1hz_w5_f0 | cpu | spot_720 | RUNNING | 0m | cpu-node-02 | 7:59:50 | 8c 48G |
-| tzag_elita | 369480 | cur_mover_pap_mcvp1hz_w5_f2 | cpu | spot_720 | RUNNING | 0m | cpu-node-02 | 7:59:50 | 8c 48G |
-| tzag_elita | 369394 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 3h07 | sandbox | 52:19 | 4c 32G |
-| tzag_elita | 369483 | cur_mover_pap_mcvp1hz_w5_f4 | cpu | spot_720 | PENDING | 0m | Dependency | 8:00:00 | 8c 48G |
-| tzag_elita | 369482 | cur_mover_pap_mcvp1hz_w5_f3 | cpu | spot_720 | PENDING | 0m | Dependency | 8:00:00 | 8c 48G |
-| tzag_elita | 369481 | cur_mover_pap_mcvp1hz_w5_f1 | cpu | spot_720 | PENDING | 0m | Dependency | 8:00:00 | 8c 48G |
-| tzag_elita | 369485 | cur_mover_pap_mcvp1hz_w10_f0 | cpu | spot_720 | PENDING | 0m | None | 8:00:00 | 8c 48G |
+| tzag_elita | 369496 | cur_mover_pap_mcvp1hz_w10_f2 | cpu | spot_720 | RUNNING | 0m | cpu-node-01 | 7:59:59 | 8c 48G |
+| tzag_elita | 369394 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 3h12 | sandbox | 47:41 | 4c 32G |
+| tzag_elita | 369498 | cur_mover_pap_mcvp1hz_w10_f3 | cpu | spot_720 | PENDING | 0m | Dependency | 8:00:00 | 8c 48G |
+| tzag_elita | 369497 | cur_mover_pap_mcvp1hz_w10_f1 | cpu | spot_720 | PENDING | 0m | Dependency | 8:00:00 | 8c 48G |
+| tzag_elita | 369499 | cur_mover_pap_mcvp1hz_w10_f4 | cpu | spot_720 | PENDING | 0m | Dependency | 8:00:00 | 8c 48G |
+| tzag_elita | 369491 | dcoe_mover_pap_mcvp1hz_w5_f2 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 369490 | dcoe_mover_pap_mcvp1hz_w5_f0 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 369492 | dcoe_mover_pap_mcvp1hz_w5_f1 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 369494 | dcoe_mover_pap_mcvp1hz_w5_f4 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 369493 | dcoe_mover_pap_mcvp1hz_w5_f3 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 369495 | dcoe_mover_pap_mcvp1hz_w10_f0 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
 
 ## Failures
 
