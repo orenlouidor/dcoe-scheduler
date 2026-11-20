@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-20 11:36:28 (Israel time)
+# DCOE sweeps -- status at 2026-11-20 11:41:27 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 81.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -755,7 +755,7 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | mimiccc_pap_mcvp1hz | f2 | mover/pipeline = 15b1e98 | tzag_elita | Before Training | 11-20 10:37 | 11-20 10:56 |  |  | 566 / 177 / 178 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 10:56 | 11-20 11:10 | 13m | Done |  | cpu | 11-20 11:11 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | mimiccc_pap_mcvp1hz | f1 | mover/pipeline = 15b1e98 | tzag_elita | Before Training | 11-20 10:37 | 11-20 11:10 |  |  | 558 / 178 / 185 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 11:10 | 11-20 11:18 | 8m | Done |  | cpu | 11-20 11:21 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | mimiccc_pap_mcvp1hz | f3 | mover/pipeline = 15b1e98 | tzag_elita | Before Training | 11-20 10:37 | 11-20 11:10 |  |  | 559 / 185 / 177 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 11:10 | 11-20 11:20 | 10m | Done |  | cpu | 11-20 11:21 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mimiccc_pap_mcvp1hz | f4 | mover/pipeline = 15b1e98 | tzag_elita | In Training | 11-20 10:37 | 11-20 11:20 |  | run_20261120_113147_mimiccc_pap_mcvp1hz_f4 | 540 / 196 / 185 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 11:20 | 11-20 11:29 | 9m | Done |  | cpu | 11-20 11:31 | (11-20 11:46) | 4m | (11-20 11:46) | 6 | power-gpu |  | 3.49 | 4.81 | 8.28 |  | 2.77 | 3.89 | 7.78 |  |  |  |  |  |
+| mimiccc_pap_mcvp1hz | f4 | mover/pipeline = 15b1e98 | tzag_elita | Done | 11-20 10:37 | 11-20 11:20 |  | run_20261120_113147_mimiccc_pap_mcvp1hz_f4 | 540 / 196 / 185 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 11:20 | 11-20 11:29 | 9m | Done |  | cpu | 11-20 11:31 |  |  | Done |  | power-gpu | 214 | 3.49 | 4.81 | 8.28 | 79 | 2.77 | 3.89 | 7.78 | 69 | 3.43 | 4.34 | 7.43 |  |
 
 ## Compute
 
@@ -772,17 +772,16 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | l40s-shared | 2 | 172/256 | 84 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 153/256 | 103 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 153/256 | 103 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 3360/4960 | 1600 | 188/248 | 60 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 3348/4960 | 1612 | 187/248 | 61 | 0 | 0 |  |
 | tzag_elita | cpu | 2 | 34/128 | 94 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 3360/4960 | 1600 | 188/248 | 60 | 1 | 0 |  |
+| tzag_elita | power-gpu | 31 | 3348/4960 | 1612 | 187/248 | 61 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 32/160 | 128 | 2/8 | 6 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 369558 | dcoe_mimiccc_pap_mcvp1hz_f4 | power-gpu | spot_720 | RUNNING | 4m | gpu-node-02 | 7:55:02 | 12c 220000M |
-| tzag_elita | 369544 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 12m | sandbox | 3:47:16 | 4c 32G |
+| tzag_elita | 369544 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 17m | sandbox | 3:42:17 | 4c 32G |
 
 ## Failures
 
