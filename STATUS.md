@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-20 11:11:18 (Israel time)
+# DCOE sweeps -- status at 2026-11-20 11:16:17 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 81.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -748,14 +748,14 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | mover_pap_mcvp1hz_w10 | f4 | mover/pipeline = a5a1ebc | tzag_elita | Before Training | 11-20 10:29 | 11-20 10:37 |  |  | 156 / 39 / 38 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 600 | -570 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 10:37 | 11-20 10:37 | 0m | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | joint_pap_mcvp1hz | f0 | mover/pipeline = 15b1e98 | tzag_elita | Before Training | 11-20 10:37 | 11-20 10:38 |  |  | 695 / 224 / 235 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 10:38 | 11-20 10:53 | 14m | Done |  | cpu | 11-20 10:56 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | joint_pap_mcvp1hz | f2 | mover/pipeline = 15b1e98 | tzag_elita | Before Training | 11-20 10:37 | 11-20 10:38 |  |  | 721 / 216 / 217 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 10:38 | 11-20 10:53 | 14m | Done |  | cpu | 11-20 10:56 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| joint_pap_mcvp1hz | f1 | mover/pipeline = 15b1e98 | tzag_elita | In Training | 11-20 10:37 | 11-20 10:53 |  | run_20261120_110653_joint_pap_mcvp1hz_f1 | 713 / 217 / 224 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 10:53 | 11-20 11:02 | 9m | Done |  | cpu | 11-20 11:06 | (11-20 11:22) | 4m | (11-20 11:22) | 3 | power-gpu |  | 3.59 | 4.69 | 7.36 |  | 3.32 | 4.03 | 6.56 |  |  |  |  |  |
-| joint_pap_mcvp1hz | f3 | mover/pipeline = 15b1e98 | tzag_elita | In Training | 11-20 10:37 | 11-20 10:53 |  | run_20261120_110653_joint_pap_mcvp1hz_f3 | 714 / 223 / 216 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 10:53 | 11-20 11:05 | 12m | Done |  | cpu | 11-20 11:06 | (11-20 11:22) | 4m | (11-20 11:22) | 3 | power-gpu |  | 3.15 | 4.18 | 7.80 |  | 2.88 | 3.09 | 3.86 |  |  |  |  |  |
-| joint_pap_mcvp1hz | f4 | mover/pipeline = 15b1e98 | tzag_elita | In Curation | 11-20 10:37 | 11-20 11:05 |  |  | 696 / 235 / 223 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 11:05 | (11-20 11:15) | 6m | (11-20 11:15) | train 634/696 (91%); validation 0/235; test 0/223 | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mimiccc_pap_mcvp1hz | f0 | mover/pipeline = 15b1e98 | tzag_elita | Done | 11-20 10:37 | 11-20 10:46 |  | run_20261120_110154_mimiccc_pap_mcvp1hz_f0 | 540 / 185 / 196 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 10:46 | 11-20 11:00 | 13m | Done |  | cpu | 11-20 11:01 |  |  | Done |  | power-gpu | 208 | 3.13 | 4.35 | 7.87 | 75 | 2.55 | 2.25 | 4.95 | 79 | 3.20 | 4.73 | 8.47 |  |
-| mimiccc_pap_mcvp1hz | f2 | mover/pipeline = 15b1e98 | tzag_elita | Before Training | 11-20 10:37 | 11-20 10:56 |  |  | 566 / 177 / 178 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median | power-gpu | 0m |  |  | 11-20 10:56 | 11-20 11:10 | 13m | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mimiccc_pap_mcvp1hz | f1 | mover/pipeline = 15b1e98 | tzag_elita | In Curation | 11-20 10:37 | 11-20 11:10 |  |  | 558 / 178 / 185 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 11:10 | (11-20 11:15) | 1m | (11-20 11:15) | train 90/558 (16%); validation 0/178; test 0/185 | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mimiccc_pap_mcvp1hz | f3 | mover/pipeline = 15b1e98 | tzag_elita | In Curation | 11-20 10:37 | 11-20 11:10 |  |  | 559 / 185 / 177 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 11:10 | (11-20 11:15) | 1m | (11-20 11:15) | train 97/559 (17%); validation 0/185; test 0/177 | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mimiccc_pap_mcvp1hz | f4 | mover/pipeline = 15b1e98 | tzag_elita | Before Curation | 11-20 10:37 |  |  |  | 540 / 196 / 185 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median | cpu | 4m |  | Dependency |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| joint_pap_mcvp1hz | f1 | mover/pipeline = 15b1e98 | tzag_elita | In Training | 11-20 10:37 | 11-20 10:53 |  | run_20261120_110653_joint_pap_mcvp1hz_f1 | 713 / 217 / 224 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 10:53 | 11-20 11:02 | 9m | Done |  | cpu | 11-20 11:06 | (11-20 11:25) | 9m | (11-20 11:25) | 11 | power-gpu |  | 3.68 | 4.72 | 7.65 |  | 3.14 | 4.06 | 6.61 |  |  |  |  |  |
+| joint_pap_mcvp1hz | f3 | mover/pipeline = 15b1e98 | tzag_elita | In Training | 11-20 10:37 | 11-20 10:53 |  | run_20261120_110653_joint_pap_mcvp1hz_f3 | 714 / 223 / 216 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 10:53 | 11-20 11:05 | 12m | Done |  | cpu | 11-20 11:06 | (11-20 11:26) | 9m | (11-20 11:26) | 12 | power-gpu |  | 3.17 | 4.52 | 8.13 |  | 2.84 | 3.09 | 3.91 |  |  |  |  |  |
+| joint_pap_mcvp1hz | f4 | mover/pipeline = 15b1e98 | tzag_elita | Before Training | 11-20 10:37 | 11-20 11:05 |  |  | 696 / 235 / 223 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median | power-gpu | 0m |  |  | 11-20 11:05 | 11-20 11:14 | 9m | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mimiccc_pap_mcvp1hz | f0 | mover/pipeline = 15b1e98 | tzag_elita | Before Training | 11-20 10:37 | 11-20 10:46 |  |  | 540 / 185 / 196 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 10:46 | 11-20 11:00 | 13m | Done |  | cpu | 11-20 11:01 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mimiccc_pap_mcvp1hz | f2 | mover/pipeline = 15b1e98 | tzag_elita | In Training | 11-20 10:37 | 11-20 10:56 |  | run_20261120_111151_mimiccc_pap_mcvp1hz_f2 | 566 / 177 / 178 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 10:56 | 11-20 11:10 | 13m | Done |  | cpu | 11-20 11:11 | (11-20 11:26) | 4m | (11-20 11:26) | 7 | power-gpu |  | 3.40 | 4.45 | 7.61 |  | 9.59 | 13.99 | 20.14 |  |  |  |  |  |
+| mimiccc_pap_mcvp1hz | f1 | mover/pipeline = 15b1e98 | tzag_elita | In Curation | 11-20 10:37 | 11-20 11:10 |  |  | 558 / 178 / 185 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 11:10 | (11-20 11:20) | 6m | (11-20 11:20) | train 550/558 (99%); validation 0/178; test 0/185 | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mimiccc_pap_mcvp1hz | f3 | mover/pipeline = 15b1e98 | tzag_elita | In Curation | 11-20 10:37 | 11-20 11:10 |  |  | 559 / 185 / 177 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-20 11:10 | (11-20 11:20) | 6m | (11-20 11:20) | train 559/559 (100%); validation 0/185; test 0/177 | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mimiccc_pap_mcvp1hz | f4 | mover/pipeline = 15b1e98 | tzag_elita | Before Curation | 11-20 10:37 |  |  |  | 540 / 196 / 185 |  |  | rocket | mcvp,hr | mimic_cc_v1 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median | cpu | 9m |  | Dependency |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 ## Compute
 
@@ -768,27 +768,27 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | h200-dds | 1 | 64/128 | 64 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 64/128 | 64 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-benisty | 1 | 66/128 | 62 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-public | 1 | 67/128 | 61 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 133/256 | 123 | 16/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shared | 2 | 155/256 | 101 | 16/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shocher | 2 | 155/256 | 101 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 3228/4960 | 1732 | 171/248 | 77 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 58/128 | 70 |  |  | 3 | 1 | Dependency x1 |
-| tzag_elita | power-gpu | 31 | 3228/4960 | 1732 | 171/248 | 77 | 2 | 1 | Priority x1 |
+| athena | l40s-public | 1 | 106/128 | 22 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 172/256 | 84 | 16/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shared | 2 | 158/256 | 98 | 16/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shocher | 2 | 158/256 | 98 | 16/16 | 0 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 3256/4960 | 1704 | 173/248 | 75 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 50/128 | 78 |  |  | 2 | 1 | Dependency x1 |
+| tzag_elita | power-gpu | 31 | 3256/4960 | 1704 | 173/248 | 75 | 3 | 1 | Priority x1 |
 | tzag_elita | sandbox | 1 | 32/160 | 128 | 2/8 | 6 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 369507 | cur_joint_pap_mcvp1hz_f4 | cpu | spot_720 | RUNNING | 6m | cpu-node-02 | 7:53:57 | 8c 48G |
-| tzag_elita | 369522 | cur_mimiccc_pap_mcvp1hz_f1 | cpu | spot_720 | RUNNING | 1m | cpu-node-02 | 7:58:48 | 8c 48G |
-| tzag_elita | 369525 | cur_mimiccc_pap_mcvp1hz_f3 | cpu | spot_720 | RUNNING | 1m | cpu-node-01 | 7:58:48 | 8c 48G |
-| tzag_elita | 369526 | dcoe_joint_pap_mcvp1hz_f1 | power-gpu | spot_720 | RUNNING | 4m | gpu-node-01 | 7:55:18 | 12c 220000M |
-| tzag_elita | 369527 | dcoe_joint_pap_mcvp1hz_f3 | power-gpu | spot_720 | RUNNING | 4m | gpu-node-01 | 7:55:18 | 12c 220000M |
-| tzag_elita | 369394 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 3h48 | sandbox | 11:45 | 4c 32G |
-| tzag_elita | 369528 | cur_mimiccc_pap_mcvp1hz_f4 | cpu | spot_720 | PENDING | 4m | Dependency | 8:00:00 | 8c 48G |
-| tzag_elita | 369533 | dcoe_mimiccc_pap_mcvp1hz_f2 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 369522 | cur_mimiccc_pap_mcvp1hz_f1 | cpu | spot_720 | RUNNING | 6m | cpu-node-02 | 7:53:49 | 8c 48G |
+| tzag_elita | 369525 | cur_mimiccc_pap_mcvp1hz_f3 | cpu | spot_720 | RUNNING | 6m | cpu-node-01 | 7:53:49 | 8c 48G |
+| tzag_elita | 369526 | dcoe_joint_pap_mcvp1hz_f1 | power-gpu | spot_720 | RUNNING | 9m | gpu-node-01 | 7:50:19 | 12c 220000M |
+| tzag_elita | 369527 | dcoe_joint_pap_mcvp1hz_f3 | power-gpu | spot_720 | RUNNING | 9m | gpu-node-01 | 7:50:19 | 12c 220000M |
+| tzag_elita | 369533 | dcoe_mimiccc_pap_mcvp1hz_f2 | power-gpu | spot_720 | RUNNING | 4m | gpu-node-01 | 7:55:20 | 12c 220000M |
+| tzag_elita | 369394 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 3h53 | sandbox | 6:46 | 4c 32G |
+| tzag_elita | 369528 | cur_mimiccc_pap_mcvp1hz_f4 | cpu | spot_720 | PENDING | 9m | Dependency | 8:00:00 | 8c 48G |
+| tzag_elita | 369536 | dcoe_joint_pap_mcvp1hz_f4 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
 
 ## Failures
 
