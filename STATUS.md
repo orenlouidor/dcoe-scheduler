@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-20 08:42:10 (Israel time)
+# DCOE sweeps -- status at 2026-11-20 08:47:17 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 81.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -741,7 +741,7 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Cluster | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | a100-public | 8 | 562/1024 | 462 | 64/64 | 0 | 0 | 0 |  |
+| athena | a100-public | 8 | 566/1024 | 458 | 64/64 | 0 | 0 | 0 |  |
 | athena | b200-shared | 2 | 240/256 | 16 | 16/16 | 0 | 0 | 0 |  |
 | athena | b200-sharir | 2 | 240/256 | 16 | 16/16 | 0 | 0 | 0 |  |
 | athena | debug | 1 | 15/128 | 113 | 3/8 | 5 | 0 | 0 |  |
@@ -750,10 +750,10 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | l40s-benisty | 1 | 70/128 | 58 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-public | 1 | 60/128 | 68 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-shared | 2 | 130/256 | 126 | 16/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shared | 2 | 148/256 | 108 | 15/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shocher | 2 | 148/256 | 108 | 15/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shared | 2 | 151/256 | 105 | 16/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shocher | 2 | 151/256 | 105 | 16/16 | 0 | 0 | 0 |  |
 | tzag_elita | compute-gpu | 31 | 3976/4960 | 984 | 192/248 | 54 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 34/128 | 94 |  |  | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 14/128 | 114 |  |  | 0 | 0 |  |
 | tzag_elita | power-gpu | 31 | 3976/4960 | 984 | 192/248 | 54 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 40/160 | 120 | 3/8 | 5 | 1 | 0 |  |
 
@@ -761,7 +761,7 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 369394 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h19 | sandbox | 2:40:53 | 4c 32G |
+| tzag_elita | 369394 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h24 | sandbox | 2:35:47 | 4c 32G |
 
 ## Failures
 
