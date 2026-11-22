@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-22 09:44:17 (Israel time)
+# DCOE sweeps -- status at 2026-11-22 09:48:53 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 81.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -767,21 +767,21 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | debug | 1 | 0/128 | 128 | 0/8 | 8 | 0 | 0 |  |
 | athena | h200-dds | 1 | 51/128 | 77 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 51/128 | 77 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-benisty | 1 | 120/128 | 8 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-public | 1 | 110/128 | 18 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-benisty | 1 | 112/128 | 16 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-public | 1 | 118/128 | 10 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-shared | 2 | 230/256 | 26 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 139/256 | 117 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 139/256 | 117 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 4056/4960 | 904 | 212/248 | 31 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 54/128 | 74 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 4056/4960 | 904 | 212/248 | 31 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 3992/4960 | 968 | 210/248 | 35 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 48/128 | 80 |  |  | 0 | 0 |  |
+| tzag_elita | power-gpu | 31 | 3992/4960 | 968 | 210/248 | 35 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 20/160 | 140 | 2/8 | 6 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 372546 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 2h10 | sandbox | 1:49:27 | 4c 32G |
+| tzag_elita | 372546 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 2h15 | sandbox | 1:44:51 | 4c 32G |
 
 ## Failures
 
