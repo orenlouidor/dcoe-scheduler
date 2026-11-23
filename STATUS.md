@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-23 12:02:24 (Israel time)
+# DCOE sweeps -- status at 2026-11-23 12:07:24 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 81.9 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -768,20 +768,20 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | h200-dds | 1 | 44/128 | 84 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 44/128 | 84 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-benisty | 1 | 34/128 | 94 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-public | 1 | 50/128 | 78 | 7/8 | 1 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 84/256 | 172 | 15/16 | 1 | 0 | 0 |  |
+| athena | l40s-public | 1 | 46/128 | 82 | 6/8 | 2 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 80/256 | 176 | 14/16 | 2 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 141/256 | 115 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 141/256 | 115 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 4564/4960 | 396 | 230/248 | 12 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 4576/4960 | 384 | 231/248 | 11 | 0 | 0 |  |
 | tzag_elita | cpu | 2 | 36/128 | 92 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 4564/4960 | 396 | 230/248 | 12 | 0 | 0 |  |
-| tzag_elita | sandbox | 1 | 12/160 | 148 | 1/8 | 7 | 1 | 0 |  |
+| tzag_elita | power-gpu | 31 | 4576/4960 | 384 | 231/248 | 11 | 0 | 0 |  |
+| tzag_elita | sandbox | 1 | 4/160 | 156 | 0/8 | 8 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 375751 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 23m | sandbox | 3:36:51 | 4c 32G |
+| tzag_elita | 375751 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 28m | sandbox | 3:31:51 | 4c 32G |
 
 ## Failures
 
