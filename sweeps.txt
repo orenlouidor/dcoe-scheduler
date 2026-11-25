@@ -156,3 +156,11 @@ mimiccc_pap_mcvp1hz @ mover/pipeline   # 2026-11-20 snir: its MIMIC-only control
 - frames_v3_cv5_er2_physionet_nohist @ feat/rnn-council   # 2026-11-25 michael-v: cancelled -- athena disk full (ENOSPC), IUCC folds idle since 03:23; all folds run direct on IUCC power-gpu (curation done here 07:44)
 - frames_v3_cv5_er3_rocket_vitals @ feat/rnn-council   # 2026-11-25 michael-v: cancelled -- athena disk full (ENOSPC), IUCC folds idle since 03:23; all folds run direct on IUCC power-gpu (curation done here 07:44)
 - frames_v3_cv5_er4_physio_vitals @ feat/rnn-council   # 2026-11-25 michael-v: cancelled -- athena disk full (ENOSPC), IUCC folds idle since 03:23; all folds run direct on IUCC power-gpu (curation done here 07:44)
+co_repro_abp_ecg @ mover/pipeline   # 2026-11-25 snir: reproduce the MIMIC CO study of 2026-07-31 (cardiac_output co_abp_ecg) on today's code
+co_repro_demo_only @ mover/pipeline   # 2026-11-25 snir: its demographics-only floor
+mover_ci_gbdt_physio @ mover/pipeline   # 2026-11-25 snir: MOVER CI, FloTrac-like GBDT (ABP stats + 1 Hz beat values + demographics)
+mover_ci_anc_ctl @ mover/pipeline   # 2026-11-25 snir: MOVER CI head-start control (first 10 min withheld)
+mover_ci_anc_feat @ mover/pipeline   # 2026-11-25 snir: MOVER CI + first 10 min of CI as input
+mover_ci_anc_first @ mover/pipeline   # 2026-11-25 snir: MOVER CI, change since the first 10 min
+mover_ci_gbdt_physio_anc @ mover/pipeline   # 2026-11-25 snir: FloTrac-like GBDT, calibrated
+mover_pap_mcvp1hz_grad @ mover/pipeline   # 2026-11-25 snir: MOVER PAP mcvp1hz with the gradient label PAP - mCVP
