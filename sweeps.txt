@@ -156,8 +156,10 @@ mimiccc_pap_mcvp1hz @ mover/pipeline   # 2026-11-20 snir: its MIMIC-only control
 - frames_v3_cv5_er2_physionet_nohist @ feat/rnn-council   # 2026-11-25 michael-v: cancelled -- athena disk full (ENOSPC), IUCC folds idle since 03:23; all folds run direct on IUCC power-gpu (curation done here 07:44)
 - frames_v3_cv5_er3_rocket_vitals @ feat/rnn-council   # 2026-11-25 michael-v: cancelled -- athena disk full (ENOSPC), IUCC folds idle since 03:23; all folds run direct on IUCC power-gpu (curation done here 07:44)
 - frames_v3_cv5_er4_physio_vitals @ feat/rnn-council   # 2026-11-25 michael-v: cancelled -- athena disk full (ENOSPC), IUCC folds idle since 03:23; all folds run direct on IUCC power-gpu (curation done here 07:44)
-co_repro_abp_ecg @ mover/pipeline   # 2026-11-25 snir: reproduce the MIMIC CO study of 2026-07-31 (cardiac_output co_abp_ecg) on today's code
-co_repro_demo_only @ mover/pipeline   # 2026-11-25 snir: its demographics-only floor
+- co_repro_abp_ecg   # 2026-11-25 snir: cancelled -- curation failed (min_samples_per_patient 100 removed every CO patient); see co_repro2_abp_ecg
+co_repro2_abp_ecg @ mover/pipeline   # 2026-11-25 snir: reproduce the MIMIC CO study of 2026-07-31 on today's code, min_samples_per_patient 1 as July
+- co_repro_demo_only   # 2026-11-25 snir: cancelled, as above; see co_repro2_demo_only
+co_repro2_demo_only @ mover/pipeline   # 2026-11-25 snir: its demographics-only floor
 mover_ci_gbdt_physio @ mover/pipeline   # 2026-11-25 snir: MOVER CI, FloTrac-like GBDT (ABP stats + 1 Hz beat values + demographics)
 mover_ci_anc_ctl @ mover/pipeline   # 2026-11-25 snir: MOVER CI head-start control (first 10 min withheld)
 mover_ci_anc_feat @ mover/pipeline   # 2026-11-25 snir: MOVER CI + first 10 min of CI as input
