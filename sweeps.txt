@@ -151,3 +151,8 @@ mover_pap_mcvp1hz_w5 @ mover/pipeline   # 2026-11-20 snir: MOVER PAP best arm (m
 mover_pap_mcvp1hz_w10 @ mover/pipeline   # 2026-11-20 snir: same with 10 min
 joint_pap_mcvp1hz @ mover/pipeline   # 2026-11-20 snir: mcvp1hz recipe trained on MIMIC (CSRU/CCU stays) + MOVER together; data on IUCC only (Datasets/MOVER/Joint/mimic_cc_v1)
 mimiccc_pap_mcvp1hz @ mover/pipeline   # 2026-11-20 snir: its MIMIC-only control (same recipe, MIMIC CSRU/CCU alone)
+frames_v3_cv5_er0_rocket_nohist @ feat/rnn-council
+frames_v3_cv5_er1_physio_nohist @ feat/rnn-council
+frames_v3_cv5_er2_physionet_nohist @ feat/rnn-council
+frames_v3_cv5_er3_rocket_vitals @ feat/rnn-council
+frames_v3_cv5_er4_physio_vitals @ feat/rnn-council
