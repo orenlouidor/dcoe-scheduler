@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-25 08:17:01 (Israel time)
+# DCOE sweeps -- status at 2026-11-25 08:23:09 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 83.5 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -775,7 +775,7 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | frames_v3_cv5_er3_rocket_vitals | f2 | feat/rnn-council = 41002ec | tzag_elita | Before Training | 11-25 03:23 | 11-25 06:26 |  |  | 941 / 313 / 314 |  |  | rocket | cvp,ecg,mcvp,hr,abp,map,sbp,dbp,rr,spo2 | v3 | ecg,cvp,abp | 60 | -30 | mcvp,hr,map,sbp,dbp,rr,spo2 | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-25 06:26 | 11-25 06:56 | 29m | Done |  | cpu | 11-25 07:01 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_er3_rocket_vitals | f1 | feat/rnn-council = 41002ec | tzag_elita | Before Training | 11-25 03:23 | 11-25 06:57 |  |  | 940 / 314 / 314 |  |  | rocket | cvp,ecg,mcvp,hr,abp,map,sbp,dbp,rr,spo2 | v3 | ecg,cvp,abp | 60 | -30 | mcvp,hr,map,sbp,dbp,rr,spo2 | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-25 06:57 | 11-25 07:16 | 18m | Done |  | cpu | 11-25 07:22 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_er3_rocket_vitals | f3 | feat/rnn-council = 41002ec | tzag_elita | Before Training | 11-25 03:23 | 11-25 06:56 |  |  | 942 / 313 / 313 |  |  | rocket | cvp,ecg,mcvp,hr,abp,map,sbp,dbp,rr,spo2 | v3 | ecg,cvp,abp | 60 | -30 | mcvp,hr,map,sbp,dbp,rr,spo2 | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-25 06:56 | 11-25 07:20 | 24m | Done |  | cpu | 11-25 07:22 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| frames_v3_cv5_er3_rocket_vitals | f4 | feat/rnn-council = 41002ec | tzag_elita | In Training | 11-25 03:23 | 11-25 07:20 |  | run_20261125_074250_frames_v3_cv5_er3_rocket_vitals_f4 | 941 / 314 / 313 |  |  | rocket | cvp,ecg,mcvp,hr,abp,map,sbp,dbp,rr,spo2 | v3 | ecg,cvp,abp | 60 | -30 | mcvp,hr,map,sbp,dbp,rr,spo2 | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-25 07:20 | 11-25 07:38 | 18m | Done |  | cpu | 11-25 07:42 | (11-25 08:25) | 34m | (11-25 08:25) | 13 | power-gpu |  | 2.31 | 3.33 | 6.77 |  | 1.92 | 2.75 | 5.96 |  |  |  |  |  |
+| frames_v3_cv5_er3_rocket_vitals | f4 | feat/rnn-council = 41002ec | tzag_elita | Done | 11-25 03:23 | 11-25 07:20 |  | run_20261125_074250_frames_v3_cv5_er3_rocket_vitals_f4 | 941 / 314 / 313 |  |  | rocket | cvp,ecg,mcvp,hr,abp,map,sbp,dbp,rr,spo2 | v3 | ecg,cvp,abp | 60 | -30 | mcvp,hr,map,sbp,dbp,rr,spo2 | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-25 07:20 | 11-25 07:38 | 18m | Done |  | cpu | 11-25 07:42 |  |  | Done |  | power-gpu | 241 | 2.31 | 3.33 | 6.77 | 92 | 1.92 | 2.75 | 5.96 | 78 | 2.88 | 3.97 | 6.92 |  |
 | frames_v3_cv5_er4_physio_vitals | f0 | feat/rnn-council = 41002ec | tzag_elita | Before Training | 11-25 03:23 | 11-25 06:31 |  |  | 940 / 314 / 314 |  |  | rocket_physio | cvp,ecg,mcvp,hr,abp,map,sbp,dbp,rr,spo2 | v3 | ecg,cvp,abp | 60 | -30 | mcvp,hr,map,sbp,dbp,rr,spo2 | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-25 06:31 | 11-25 06:58 | 26m | Done |  | cpu | 11-25 07:01 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_er4_physio_vitals | f2 | feat/rnn-council = 41002ec | athena | Failed | 11-25 03:23 |  |  |  | 941 / 313 / 314 | 11-25 07:00 curation 327163 OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp-abp_PAPcv5_f2_train_3ff1346bf95b'; 11-25 07:00 cur 327163 OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp-abp_PAPcv5_f2_train_3ff1346bf95b'; rerun 4; 11-25 07:00 cur rerun 3 times already; marked Failed, job 327163 cancelled | Curation athena/a100-public,rtx6k-shared,l40s-shared,l40s-public job 327149: OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp-abp_PAPcv5_f2_train_3ff1346bf95b' -> athena/a100-public,rtx6k-shared,l40s-shared,l40s-public / Curation athena/a100-public,rtx6k-shared,l40s-shared,l40s-public job 327153: OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp-abp_PAPcv5_f2_train_3ff1346bf95b' -> athena/a100-public,rtx6k-shared,l40s-shared,l40s-public / Curation athena/a100-public,rtx6k-shared,l40s-shared,l40s-public job 327157: OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp-abp_PAPcv5_f2_train_3ff1346bf95b' -> athena/a100-public,rtx6k-shared,l40s-shared,l40s-public / Curation athena/a100-public,rtx6k-shared,l40s-shared,l40s-public job 327163: OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp-abp_PAPcv5_f2_train_3ff1346bf95b' -> given up (Failed) | rocket_physio | cvp,ecg,mcvp,hr,abp,map,sbp,dbp,rr,spo2 | v3 | ecg,cvp,abp | 60 | -30 | mcvp,hr,map,sbp,dbp,rr,spo2 | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  |  | 11-25 06:56 |  | Done |  | a100-public,rtx6k-shared,l40s-shared,l40s-public |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | frames_v3_cv5_er4_physio_vitals | f1 | feat/rnn-council = 41002ec | athena | Failed | 11-25 03:23 |  |  |  | 940 / 314 / 314 | 11-25 07:00 curation 327164 OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp-abp_PAPcv5_f1_train_78b1377aa56e'; 11-25 07:00 cur 327164 OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp-abp_PAPcv5_f1_train_78b1377aa56e'; rerun 4; 11-25 07:00 cur rerun 3 times already; marked Failed, job 327164 cancelled | Curation athena/a100-public,rtx6k-shared,l40s-shared,l40s-public job 327150: OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp-abp_PAPcv5_f1_train_78b1377aa56e' -> athena/a100-public,rtx6k-shared,l40s-shared,l40s-public / Curation athena/a100-public,rtx6k-shared,l40s-shared,l40s-public job 327154: OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp-abp_PAPcv5_f1_train_78b1377aa56e' -> athena/a100-public,rtx6k-shared,l40s-shared,l40s-public / Curation athena/a100-public,rtx6k-shared,l40s-shared,l40s-public job 327158: OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp-abp_PAPcv5_f1_train_78b1377aa56e' -> athena/a100-public,rtx6k-shared,l40s-shared,l40s-public / Curation athena/a100-public,rtx6k-shared,l40s-shared,l40s-public job 327164: OSError: [Errno 28] No space left on device: '/rg/louidor_prj/olouidor/Runs/CuratedData/pap_ecg-cvp-abp_PAPcv5_f1_train_78b1377aa56e' -> given up (Failed) | rocket_physio | cvp,ecg,mcvp,hr,abp,map,sbp,dbp,rr,spo2 | v3 | ecg,cvp,abp | 60 | -30 | mcvp,hr,map,sbp,dbp,rr,spo2 | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  |  | 11-25 06:57 |  | Done |  | a100-public,rtx6k-shared,l40s-shared,l40s-public |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -787,9 +787,9 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | Cluster | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|---|
 | athena | a100-public | 8 | 452/1024 | 572 | 42/64 | 22 | 0 | 0 |  |
-| athena | b200-shared | 2 | 191/256 | 65 | 16/16 | 0 | 0 | 0 |  |
-| athena | b200-sharir | 2 | 191/256 | 65 | 16/16 | 0 | 0 | 0 |  |
-| athena | debug | 1 | 8/128 | 120 | 1/8 | 7 | 0 | 0 |  |
+| athena | b200-shared | 2 | 195/256 | 61 | 16/16 | 0 | 0 | 0 |  |
+| athena | b200-sharir | 2 | 195/256 | 61 | 16/16 | 0 | 0 | 0 |  |
+| athena | debug | 1 | 16/128 | 112 | 2/8 | 6 | 0 | 0 |  |
 | athena | h200-dds | 1 | 15/128 | 113 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 15/128 | 113 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-benisty | 1 | 24/128 | 104 | 4/8 | 4 | 0 | 0 |  |
@@ -797,16 +797,16 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | l40s-shared | 2 | 94/256 | 162 | 6/16 | 10 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 127/256 | 129 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 127/256 | 129 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 2560/4960 | 2400 | 235/248 | 13 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 48/128 | 80 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 2560/4960 | 2400 | 235/248 | 13 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 2532/4960 | 2428 | 233/248 | 15 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 40/128 | 88 |  |  | 0 | 0 |  |
+| tzag_elita | power-gpu | 31 | 2532/4960 | 2428 | 233/248 | 15 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 4/160 | 156 | 0/8 | 8 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 380546 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 25m | sandbox | 3:34:55 | 4c 32G |
+| tzag_elita | 380546 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 31m | sandbox | 3:28:47 | 4c 32G |
 
 ## Failures
 
