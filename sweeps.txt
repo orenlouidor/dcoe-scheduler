@@ -169,3 +169,23 @@ mover_pap_mcvp1hz_grad @ mover/pipeline   # 2026-11-25 snir: MOVER PAP mcvp1hz w
 mover_co_demo @ mover/pipeline   # 2026-11-26 snir: MOVER cardiac output = EPIC CI x BSA (label_scale bsa); the demographics floor
 mover_co_mimic_co @ mover/pipeline   # 2026-11-26 snir: the MIMIC CO recipe trained on MOVER CO
 mover_co_gbdt_physio @ mover/pipeline   # 2026-11-26 snir: the FloTrac-like GBDT on MOVER CO
+# 2026-11-26 snir: round 4, CO/CI on MIMIC (cardiac_output_x) and MOVER CO = CI x BSA (mover_co); one change each
+cox_bsahead @ mover/pipeline
+cox_demo_bsa @ mover/pipeline
+cox_gbdt @ mover/pipeline
+cox_w8 @ mover/pipeline
+cox_w32 @ mover/pipeline
+cox_w60 @ mover/pipeline
+cox_abp_cohort @ mover/pipeline
+cox_loose @ mover/pipeline
+cox_strict @ mover/pipeline
+cox_k512 @ mover/pipeline
+mvco_bsahead @ mover/pipeline
+mvco_gbdt_cond @ mover/pipeline
+mvco_gbdt_pleth @ mover/pipeline
+mvco_gbdt_abp20 @ mover/pipeline
+mvco_gbdt_abp180 @ mover/pipeline
+mvco_gbdt_h5 @ mover/pipeline
+mvco_gbdt_h60 @ mover/pipeline
+mvco_gbdt_label5m @ mover/pipeline
+mvco_gbdt_more @ mover/pipeline
