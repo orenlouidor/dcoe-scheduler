@@ -166,3 +166,6 @@ mover_ci_anc_feat @ mover/pipeline   # 2026-11-25 snir: MOVER CI + first 10 min 
 mover_ci_anc_first @ mover/pipeline   # 2026-11-25 snir: MOVER CI, change since the first 10 min
 mover_ci_gbdt_physio_anc @ mover/pipeline   # 2026-11-25 snir: FloTrac-like GBDT, calibrated
 mover_pap_mcvp1hz_grad @ mover/pipeline   # 2026-11-25 snir: MOVER PAP mcvp1hz with the gradient label PAP - mCVP
+mover_co_demo @ mover/pipeline   # 2026-11-26 snir: MOVER cardiac output = EPIC CI x BSA (label_scale bsa); the demographics floor
+mover_co_mimic_co @ mover/pipeline   # 2026-11-26 snir: the MIMIC CO recipe trained on MOVER CO
+mover_co_gbdt_physio @ mover/pipeline   # 2026-11-26 snir: the FloTrac-like GBDT on MOVER CO
