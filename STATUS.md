@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-26 09:51:13 (Israel time)
+# DCOE sweeps -- status at 2026-11-26 09:57:08 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 86.1 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -831,21 +831,21 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | mover_pap_mcvp1hz_grad | f1 | mover/pipeline = 7931f08 | tzag_elita | Before Training | 11-25 12:00 |  |  |  | 155 / 39 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  |  | 11-25 13:20 |  | Done |  | cpu | 11-26 07:28 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | mover_pap_mcvp1hz_grad | f3 | mover/pipeline = 7931f08 | tzag_elita | Before Training | 11-25 12:00 |  |  |  | 155 / 38 / 39 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  |  | 11-25 13:21 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | mover_pap_mcvp1hz_grad | f4 | mover/pipeline = 7931f08 | tzag_elita | Before Training | 11-25 12:00 | 11-25 13:21 |  |  | 156 / 39 / 38 |  |  | rocket | mcvp,hr | v2 |  | 60 | -30 | mcvp,hr | 1800 | -1770 |  | pap | 30 | 10 | median |  |  |  |  | 11-25 13:21 | 11-25 13:22 | 0m | Done |  | cpu | 11-26 07:29 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_co_demo | f0 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | demographics_only |  | v1 | ecg,abp | 60 | -30 | hr_abp,map | 1800 | -1770 | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-26 09:46 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_co_demo | f2 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | demographics_only |  | v1 | ecg,abp | 60 | -30 | hr_abp,map | 1800 | -1770 | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-26 09:46 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_co_demo | f1 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | demographics_only |  | v1 | ecg,abp | 60 | -30 | hr_abp,map | 1800 | -1770 | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-26 09:47 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_co_demo | f3 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 83 / 20 / 21 |  |  | demographics_only |  | v1 | ecg,abp | 60 | -30 | hr_abp,map | 1800 | -1770 | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-26 09:47 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_co_demo | f4 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 84 / 21 / 20 |  |  | demographics_only |  | v1 | ecg,abp | 60 | -30 | hr_abp,map | 1800 | -1770 | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-26 09:47 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_co_mimic_co | f0 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-26 09:47 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_co_mimic_co | f2 | mover/pipeline = f667e75 | tzag_elita | Before Curation | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_co_mimic_co | f1 | mover/pipeline = f667e75 | tzag_elita | Before Curation | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_co_mimic_co | f3 | mover/pipeline = f667e75 | tzag_elita | Before Curation | 11-26 09:45 |  |  |  | 83 / 20 / 21 |  |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_co_mimic_co | f4 | mover/pipeline = f667e75 | tzag_elita | Before Curation | 11-26 09:45 |  |  |  | 84 / 21 / 20 |  |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_co_gbdt_physio | f0 | mover/pipeline = f667e75 | tzag_elita | Before Curation | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_co_gbdt_physio | f2 | mover/pipeline = f667e75 | tzag_elita | Before Curation | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_co_gbdt_physio | f1 | mover/pipeline = f667e75 |  | Before Curation | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median |  |  |  | waits for its turn |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_co_gbdt_physio | f3 | mover/pipeline = f667e75 |  | Before Curation | 11-26 09:45 |  |  |  | 83 / 20 / 21 |  |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median |  |  |  | waits for its turn |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mover_co_gbdt_physio | f4 | mover/pipeline = f667e75 |  | Before Curation | 11-26 09:45 |  |  |  | 84 / 21 / 20 |  |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_co_demo | f0 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | demographics_only |  | v1 | ecg,abp | 60 | -30 | hr_abp,map | 1800 | -1770 | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 6m | (11-26 18:00) | Priority |  | 11-26 09:46 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_co_demo | f2 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | demographics_only |  | v1 | ecg,abp | 60 | -30 | hr_abp,map | 1800 | -1770 | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 6m | (11-26 19:00) | Priority |  | 11-26 09:46 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_co_demo | f1 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | demographics_only |  | v1 | ecg,abp | 60 | -30 | hr_abp,map | 1800 | -1770 | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 6m | (11-26 20:00) | Priority |  | 11-26 09:47 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_co_demo | f3 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 83 / 20 / 21 |  |  | demographics_only |  | v1 | ecg,abp | 60 | -30 | hr_abp,map | 1800 | -1770 | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 6m | (11-26 21:00) | Priority |  | 11-26 09:47 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_co_demo | f4 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 84 / 21 / 20 |  |  | demographics_only |  | v1 | ecg,abp | 60 | -30 | hr_abp,map | 1800 | -1770 | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 6m | (11-26 21:00) | Priority |  | 11-26 09:47 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_co_mimic_co | f0 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 6m | (11-26 22:00) | Priority |  | 11-26 09:47 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_co_mimic_co | f2 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-26 09:51 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_co_mimic_co | f1 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-26 09:52 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_co_mimic_co | f3 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 83 / 20 / 21 |  |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-26 09:52 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_co_mimic_co | f4 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 84 / 21 / 20 |  |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-26 09:52 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_co_gbdt_physio | f0 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-26 09:51 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_co_gbdt_physio | f2 | mover/pipeline = f667e75 | tzag_elita | Before Training | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median | power-gpu | 1m |  |  |  | 11-26 09:51 |  | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_co_gbdt_physio | f1 | mover/pipeline = f667e75 | tzag_elita | Before Curation | 11-26 09:45 |  |  |  | 83 / 21 / 21 |  |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_co_gbdt_physio | f3 | mover/pipeline = f667e75 | tzag_elita | Before Curation | 11-26 09:45 |  |  |  | 83 / 20 / 21 |  |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mover_co_gbdt_physio | f4 | mover/pipeline = f667e75 | tzag_elita | Before Curation | 11-26 09:45 |  |  |  | 84 / 21 / 20 |  |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median | cpu | 1m |  |  |  |  |  |  |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 ## Compute
 
@@ -855,36 +855,39 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | b200-shared | 2 | 128/256 | 128 | 16/16 | 0 | 0 | 0 |  |
 | athena | b200-sharir | 2 | 128/256 | 128 | 16/16 | 0 | 0 | 0 |  |
 | athena | cpu-amd | 9 | 574/1152 | 490 | 71/72 | 0 | 0 | 0 |  |
-| athena | debug | 1 | 8/128 | 120 | 1/8 | 7 | 0 | 0 |  |
+| athena | debug | 1 | 16/128 | 112 | 2/8 | 6 | 0 | 0 |  |
 | athena | h200-dds | 1 | 47/128 | 81 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 47/128 | 81 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-benisty | 1 | 49/128 | 79 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-public | 1 | 90/128 | 38 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-shared | 2 | 139/256 | 117 | 16/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shared | 2 | 113/256 | 143 | 16/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shocher | 2 | 113/256 | 143 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 2592/4960 | 2368 | 239/248 | 9 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 52/128 | 76 |  |  | 0 | 6 | Dependency x3, None x1, Priority x2 |
-| tzag_elita | power-gpu | 31 | 2592/4960 | 2368 | 239/248 | 9 | 0 | 6 | Priority x6 |
+| athena | rtx6k-shared | 2 | 108/256 | 148 | 16/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shocher | 2 | 108/256 | 148 | 16/16 | 0 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 2592/4960 | 2368 | 237/248 | 11 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 52/128 | 76 |  |  | 0 | 3 | Dependency x1, Priority x2 |
+| tzag_elita | power-gpu | 31 | 2592/4960 | 2368 | 237/248 | 11 | 0 | 12 | Priority x12 |
 | tzag_elita | sandbox | 1 | 60/160 | 100 | 5/8 | 3 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 383640 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h51 | sandbox | 2:08:23 | 4c 32G |
-| tzag_elita | 383943 | cur_mover_co_mimic_co_f1 | cpu | spot_720 | PENDING | 0m | Dependency | 8:00:00 | 8c 48G |
-| tzag_elita | 383942 | cur_mover_co_mimic_co_f2 | cpu | spot_720 | PENDING | 0m | None | 8:00:00 | 8c 48G |
-| tzag_elita | 383945 | cur_mover_co_mimic_co_f4 | cpu | spot_720 | PENDING | 0m | Dependency | 8:00:00 | 8c 48G |
-| tzag_elita | 383944 | cur_mover_co_mimic_co_f3 | cpu | spot_720 | PENDING | 0m | Dependency | 8:00:00 | 8c 48G |
-| tzag_elita | 383946 | cur_mover_co_gbdt_physio_f0 | cpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 8c 48G |
-| tzag_elita | 383947 | cur_mover_co_gbdt_physio_f2 | cpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 8c 48G |
-| tzag_elita | 383936 | dcoe_mover_co_demo_f0 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 383938 | dcoe_mover_co_demo_f1 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 383937 | dcoe_mover_co_demo_f2 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 383939 | dcoe_mover_co_demo_f3 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 383941 | dcoe_mover_co_mimic_co_f0 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 383940 | dcoe_mover_co_demo_f4 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 383640 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h57 | sandbox | 2:02:28 | 4c 32G |
+| tzag_elita | 383976 | cur_mover_co_gbdt_physio_f1 | cpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 8c 48G |
+| tzag_elita | 383978 | cur_mover_co_gbdt_physio_f4 | cpu | spot_720 | PENDING | 0m | Dependency | 8:00:00 | 8c 48G |
+| tzag_elita | 383977 | cur_mover_co_gbdt_physio_f3 | cpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 8c 48G |
+| tzag_elita | 383936 | dcoe_mover_co_demo_f0 | power-gpu | spot_720 | PENDING | 6m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 383938 | dcoe_mover_co_demo_f1 | power-gpu | spot_720 | PENDING | 6m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 383937 | dcoe_mover_co_demo_f2 | power-gpu | spot_720 | PENDING | 6m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 383939 | dcoe_mover_co_demo_f3 | power-gpu | spot_720 | PENDING | 6m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 383941 | dcoe_mover_co_mimic_co_f0 | power-gpu | spot_720 | PENDING | 6m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 383940 | dcoe_mover_co_demo_f4 | power-gpu | spot_720 | PENDING | 6m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 383971 | dcoe_mover_co_mimic_co_f1 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 383970 | dcoe_mover_co_mimic_co_f2 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 383973 | dcoe_mover_co_mimic_co_f4 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 383972 | dcoe_mover_co_mimic_co_f3 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 383974 | dcoe_mover_co_gbdt_physio_f0 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 383975 | dcoe_mover_co_gbdt_physio_f2 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
 
 ## Failures
 
