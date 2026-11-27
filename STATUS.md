@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-27 17:27:39 (Israel time)
+# DCOE sweeps -- status at 2026-11-27 17:59:01 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 90.5 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -947,10 +947,10 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | mvco_gbdt_mimic | f3 | mover/pipeline = d461c91 | tzag_elita | Failed | 11-27 12:55 |  |  |  | 83 / 20 / 21 | 11-27 16:24 training 387333 completed without a result; rerun; 11-27 16:24 trn 387333 completed without a result; rerun 4; 11-27 16:24 trn rerun 3 times already; marked Failed, job 387333 cancelled |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median |  |  |  |  |  | 11-27 12:57 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | mvco_gbdt_mimic | f4 | mover/pipeline = d461c91 | tzag_elita | Failed | 11-27 12:55 |  |  |  | 84 / 21 / 20 | 11-27 16:24 training 387334 completed without a result; rerun; 11-27 16:24 trn 387334 completed without a result; rerun 4; 11-27 16:24 trn rerun 3 times already; marked Failed, job 387334 cancelled |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median |  |  |  |  |  | 11-27 12:57 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | mvco_rocket_mimic | f0 | mover/pipeline = d461c91 | tzag_elita | Failed | 11-27 12:55 |  |  |  | 83 / 21 / 21 | 11-27 13:55 training 387345 completed without a result; rerun; 11-27 13:55 trn 387345 completed without a result; rerun 4; 11-27 13:55 trn rerun 3 times already; marked Failed, job 387345 cancelled |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median |  |  |  |  |  | 11-27 12:56 |  | Done |  | cpu |  |  |  |  |  | sandbox |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mvco_rocket_mimic | f2 | mover/pipeline = d461c91 | tzag_elita | In Training | 11-27 12:55 |  |  | run_20261127_170425_mvco_rocket_mimic_f2 | 83 / 21 / 21 | 11-27 13:45 trn 387313 completed without a result; rerun 2; 11-27 16:24 training 387335 completed without a result; rerun; 11-27 16:24 trn 387335 completed without a result; rerun 3 |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median |  |  |  |  |  | 11-27 13:01 |  | Done |  | cpu | 11-27 17:04 | (11-27 17:19) | 23m | (11-27 17:19) | 17 | sandbox |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mvco_rocket_mimic | f1 | mover/pipeline = d461c91 | tzag_elita | In Training | 11-27 12:55 |  |  | run_20261127_170449_mvco_rocket_mimic_f1 | 83 / 21 / 21 | 11-27 13:45 trn 387314 completed without a result; rerun 2; 11-27 16:24 training 387336 completed without a result; rerun; 11-27 16:24 trn 387336 completed without a result; rerun 3 |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median |  |  |  |  |  | 11-27 13:01 |  | Done |  | cpu | 11-27 17:04 | (11-27 17:20) | 23m | (11-27 17:20) | 19 | sandbox |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mvco_rocket_mimic | f3 | mover/pipeline = d461c91 | tzag_elita | Before Training | 11-27 12:55 |  |  |  | 83 / 20 / 21 | 11-27 13:45 trn 387315 completed without a result; rerun 2; 11-27 16:24 training 387337 completed without a result; rerun; 11-27 16:24 trn 387337 completed without a result; rerun 3 |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 22m | (11-27 20:51) | Priority |  | 11-27 13:01 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mvco_rocket_mimic | f4 | mover/pipeline = d461c91 | tzag_elita | Before Training | 11-27 12:55 |  |  |  | 84 / 21 / 20 | 11-27 13:45 trn 387316 completed without a result; rerun 2; 11-27 16:24 training 387338 completed without a result; rerun; 11-27 16:24 trn 387338 completed without a result; rerun 3 |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median | power-gpu | 22m | (11-27 22:00) | Priority |  | 11-27 13:01 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mvco_rocket_mimic | f2 | mover/pipeline = d461c91 | tzag_elita | Before Training | 11-27 12:55 |  |  | run_20261127_170425_mvco_rocket_mimic_f2 | 83 / 21 / 21 | 11-27 17:27 training 387820 completed without a result; rerun; 11-27 17:27 trn 387820 completed without a result; rerun 4; 11-27 17:27 trn rerun 3 times already; marked Failed, job 387820 cancelled |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median |  |  |  |  |  | 11-27 13:01 |  | Done |  | cpu | 11-27 17:04 |  |  |  |  | sandbox |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mvco_rocket_mimic | f1 | mover/pipeline = d461c91 | tzag_elita | Before Training | 11-27 12:55 |  |  | run_20261127_170449_mvco_rocket_mimic_f1 | 83 / 21 / 21 | 11-27 17:27 training 387821 completed without a result; rerun; 11-27 17:27 trn 387821 completed without a result; rerun 4; 11-27 17:27 trn rerun 3 times already; marked Failed, job 387821 cancelled |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median |  |  |  |  |  | 11-27 13:01 |  | Done |  | cpu | 11-27 17:04 |  |  |  |  | sandbox |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mvco_rocket_mimic | f3 | mover/pipeline = d461c91 | tzag_elita | Before Training | 11-27 12:55 |  |  | run_20261127_171905_mvco_rocket_mimic_f3 | 83 / 20 / 21 | 11-27 17:27 training 387824 completed without a result; rerun; 11-27 17:27 trn 387824 completed without a result; rerun 4; 11-27 17:27 trn rerun 3 times already; marked Failed, job 387824 cancelled |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median |  |  |  |  |  | 11-27 13:01 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mvco_rocket_mimic | f4 | mover/pipeline = d461c91 | tzag_elita | Before Training | 11-27 12:55 |  |  | run_20261127_171905_mvco_rocket_mimic_f4 | 84 / 21 / 20 | 11-27 17:27 training 387825 completed without a result; rerun; 11-27 17:27 trn 387825 completed without a result; rerun 4; 11-27 17:27 trn rerun 3 times already; marked Failed, job 387825 cancelled |  | rocket | abp,ecg | v1 | ecg,abp | 16 | 7 |  |  |  | age,gender,weight,height | ci | 30 | 10 | median |  |  |  |  |  | 11-27 13:01 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | cox_bsahead_w8 | f0 | mover/pipeline = d461c91 |  | Before Curation | 11-27 12:55 |  |  |  | 619 / 155 / 155 |  |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  |  |  |  | submission on athena failed |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | cox_bsahead_w8 | f2 | mover/pipeline = d461c91 |  | Before Curation | 11-27 12:55 |  |  |  | 619 / 155 / 155 |  |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  |  |  |  | submission on athena failed |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | cox_bsahead_w8 | f1 | mover/pipeline = d461c91 |  | Before Curation | 11-27 12:55 |  |  |  | 619 / 155 / 155 |  |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -966,28 +966,28 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Cluster | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | a100-public | 8 | 533/1024 | 491 | 64/64 | 0 | 0 | 0 |  |
+| athena | a100-public | 8 | 565/1024 | 459 | 64/64 | 0 | 0 | 0 |  |
 | athena | b200-shared | 2 | 128/256 | 128 | 16/16 | 0 | 0 | 0 |  |
 | athena | b200-sharir | 2 | 128/256 | 128 | 16/16 | 0 | 0 | 0 |  |
-| athena | cpu-amd | 9 | 612/1152 | 540 | 72/72 | 0 | 0 | 0 |  |
+| athena | cpu-amd | 9 | 635/1152 | 517 | 72/72 | 0 | 0 | 0 |  |
 | athena | debug | 1 | 4/128 | 124 | 1/8 | 7 | 0 | 0 |  |
 | athena | h200-dds | 1 | 47/128 | 81 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 47/128 | 81 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-benisty | 1 | 44/128 | 84 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-public | 1 | 79/128 | 49 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 123/256 | 133 | 16/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shared | 2 | 85/256 | 171 | 16/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shocher | 2 | 85/256 | 171 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 2590/4960 | 2370 | 247/248 | 1 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 40/128 | 88 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 2590/4960 | 2370 | 247/248 | 1 | 0 | 0 |  |
-| tzag_elita | sandbox | 1 | 88/160 | 72 | 8/8 | 0 | 1 | 0 |  |
+| athena | l40s-public | 1 | 70/128 | 58 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 114/256 | 142 | 16/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shared | 2 | 82/256 | 174 | 15/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shocher | 2 | 82/256 | 174 | 15/16 | 0 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 2550/4960 | 2410 | 246/248 | 2 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 34/128 | 94 |  |  | 0 | 0 |  |
+| tzag_elita | power-gpu | 31 | 2550/4960 | 2410 | 246/248 | 2 | 0 | 0 |  |
+| tzag_elita | sandbox | 1 | 76/160 | 84 | 6/8 | 2 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 387683 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h18 | sandbox | 2:41:44 | 4c 32G |
+| tzag_elita | 387683 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h49 | sandbox | 2:10:22 | 4c 32G |
 
 ## Failures
 
