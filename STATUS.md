@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-27 19:31:49 (Israel time)
+# DCOE sweeps -- status at 2026-11-27 19:38:04 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 90.5 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -966,10 +966,10 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Cluster | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | a100-public | 8 | 581/1024 | 443 | 64/64 | 0 | 0 | 0 |  |
+| athena | a100-public | 8 | 600/1024 | 424 | 64/64 | 0 | 0 | 0 |  |
 | athena | b200-shared | 2 | 128/256 | 128 | 16/16 | 0 | 0 | 0 |  |
 | athena | b200-sharir | 2 | 128/256 | 128 | 16/16 | 0 | 0 | 0 |  |
-| athena | cpu-amd | 9 | 638/1152 | 514 | 72/72 | 0 | 0 | 0 |  |
+| athena | cpu-amd | 9 | 657/1152 | 495 | 72/72 | 0 | 0 | 0 |  |
 | athena | debug | 1 | 16/128 | 112 | 2/8 | 6 | 0 | 0 |  |
 | athena | h200-dds | 1 | 47/128 | 81 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 47/128 | 81 | 8/8 | 0 | 0 | 0 |  |
@@ -978,16 +978,16 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | l40s-shared | 2 | 111/256 | 145 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 70/256 | 186 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 70/256 | 186 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 2622/4960 | 2338 | 248/248 | 0 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 36/128 | 92 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 2622/4960 | 2338 | 248/248 | 0 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 2610/4960 | 2350 | 248/248 | 0 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 90/128 | 38 |  |  | 0 | 0 |  |
+| tzag_elita | power-gpu | 31 | 2610/4960 | 2350 | 248/248 | 0 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 32/160 | 128 | 2/8 | 6 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 387683 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 3h22 | sandbox | 37:34 | 4c 32G |
+| tzag_elita | 387683 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 3h28 | sandbox | 31:20 | 4c 32G |
 
 ## Failures
 
