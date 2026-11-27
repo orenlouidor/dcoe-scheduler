@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-28 01:05:39 (Israel time)
+# DCOE sweeps -- status at 2026-11-28 01:32:38 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 91.2 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -958,36 +958,36 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | cox_bsahead_w8 | f4 | mover/pipeline = d461c91 | tzag_elita | Failed | 11-27 12:55 |  |  |  | 620 / 155 / 154 | 11-28 00:28 training 388703 completed without a result; rerun; 11-28 00:28 trn 388703 completed without a result; rerun 4; 11-28 00:28 trn rerun 3 times already; marked Failed, job 388703 cancelled |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  |  |  |  |  |  | 11-27 20:22 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | cox_bsahead_demobsa | f0 | mover/pipeline = d461c91 | tzag_elita | Failed | 11-27 12:55 |  |  |  | 619 / 155 / 155 | 11-28 00:28 training 388704 completed without a result; rerun; 11-28 00:28 trn 388704 completed without a result; rerun 4; 11-28 00:28 trn rerun 3 times already; marked Failed, job 388704 cancelled |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,sex,weight,height,bsa,bmi |  |  |  |  |  |  |  |  |  | 11-27 20:22 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | cox_bsahead_demobsa | f2 | mover/pipeline = d461c91 | tzag_elita | Failed | 11-27 12:55 |  |  |  | 619 / 155 / 155 | 11-28 00:28 training 388708 completed without a result; rerun; 11-28 00:28 trn 388708 completed without a result; rerun 4; 11-28 00:28 trn rerun 3 times already; marked Failed, job 388708 cancelled |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,sex,weight,height,bsa,bmi |  |  |  |  |  |  |  |  |  | 11-27 20:22 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| cox_bsahead_demobsa | f1 | mover/pipeline = d461c91 | tzag_elita | Before Training | 11-27 12:55 |  |  | run_20261128_002849_cox_bsahead_demobsa_f1 | 619 / 155 / 155 | 11-28 00:47 training 388746 completed without a result; rerun; 11-28 00:47 trn 388746 completed without a result; rerun 4; 11-28 00:47 trn rerun 3 times already; marked Failed, job 388746 cancelled |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,sex,weight,height,bsa,bmi |  |  |  |  |  |  |  |  |  | 11-27 20:22 |  | Done |  | cpu | 11-28 00:28 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| cox_bsahead_demobsa | f3 | mover/pipeline = d461c91 | tzag_elita | Before Training | 11-27 12:55 |  |  | run_20261128_002850_cox_bsahead_demobsa_f3 | 619 / 154 / 155 | 11-28 00:47 training 388747 completed without a result; rerun; 11-28 00:47 trn 388747 completed without a result; rerun 4; 11-28 00:47 trn rerun 3 times already; marked Failed, job 388747 cancelled |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,sex,weight,height,bsa,bmi |  |  |  |  |  |  |  |  |  | 11-27 20:27 |  | Done |  | cpu | 11-28 00:28 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| cox_bsahead_demobsa | f4 | mover/pipeline = d461c91 | tzag_elita | Before Training | 11-27 12:55 |  |  | run_20261128_003049_cox_bsahead_demobsa_f4 | 620 / 155 / 154 | 11-28 00:47 training 388748 completed without a result; rerun; 11-28 00:47 trn 388748 completed without a result; rerun 4; 11-28 00:47 trn rerun 3 times already; marked Failed, job 388748 cancelled |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,sex,weight,height,bsa,bmi |  |  |  |  |  |  |  |  |  | 11-27 20:27 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| cox_bsahead_demobsa | f1 | mover/pipeline = d461c91 | tzag_elita | Failed | 11-27 12:55 |  |  |  | 619 / 155 / 155 | 11-28 00:47 training 388746 completed without a result; rerun; 11-28 00:47 trn 388746 completed without a result; rerun 4; 11-28 00:47 trn rerun 3 times already; marked Failed, job 388746 cancelled |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,sex,weight,height,bsa,bmi |  |  |  |  |  |  |  |  |  | 11-27 20:22 |  | Done |  | cpu | 11-28 00:28 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| cox_bsahead_demobsa | f3 | mover/pipeline = d461c91 | tzag_elita | Failed | 11-27 12:55 |  |  |  | 619 / 154 / 155 | 11-28 00:47 training 388747 completed without a result; rerun; 11-28 00:47 trn 388747 completed without a result; rerun 4; 11-28 00:47 trn rerun 3 times already; marked Failed, job 388747 cancelled |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,sex,weight,height,bsa,bmi |  |  |  |  |  |  |  |  |  | 11-27 20:27 |  | Done |  | cpu | 11-28 00:28 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| cox_bsahead_demobsa | f4 | mover/pipeline = d461c91 | tzag_elita | Failed | 11-27 12:55 |  |  |  | 620 / 155 / 154 | 11-28 00:47 training 388748 completed without a result; rerun; 11-28 00:47 trn 388748 completed without a result; rerun 4; 11-28 00:47 trn rerun 3 times already; marked Failed, job 388748 cancelled |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,sex,weight,height,bsa,bmi |  |  |  |  |  |  |  |  |  | 11-27 20:27 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
 ## Compute
 
 | Cluster | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | a100-public | 8 | 587/1024 | 437 | 64/64 | 0 | 0 | 0 |  |
+| athena | a100-public | 8 | 595/1024 | 429 | 64/64 | 0 | 0 | 0 |  |
 | athena | b200-shared | 2 | 128/256 | 128 | 16/16 | 0 | 0 | 0 |  |
 | athena | b200-sharir | 2 | 128/256 | 128 | 16/16 | 0 | 0 | 0 |  |
-| athena | cpu-amd | 9 | 685/1152 | 467 | 72/72 | 0 | 0 | 0 |  |
+| athena | cpu-amd | 9 | 689/1152 | 463 | 72/72 | 0 | 0 | 0 |  |
 | athena | debug | 1 | 0/128 | 128 | 0/8 | 8 | 0 | 0 |  |
 | athena | h200-dds | 1 | 45/128 | 83 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 45/128 | 83 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-benisty | 1 | 89/128 | 39 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-public | 1 | 98/128 | 30 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 187/256 | 69 | 16/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shared | 2 | 106/256 | 150 | 16/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shocher | 2 | 106/256 | 150 | 16/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 2338/4960 | 2622 | 243/248 | 5 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 46/128 | 82 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 2338/4960 | 2622 | 243/248 | 5 | 0 | 0 |  |
+| athena | l40s-benisty | 1 | 95/128 | 33 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-public | 1 | 94/128 | 34 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 189/256 | 67 | 16/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shared | 2 | 111/256 | 145 | 16/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shocher | 2 | 111/256 | 145 | 16/16 | 0 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 2202/4960 | 2758 | 244/248 | 4 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 38/128 | 90 |  |  | 0 | 0 |  |
+| tzag_elita | power-gpu | 31 | 2202/4960 | 2758 | 244/248 | 4 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 12/160 | 148 | 1/8 | 7 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 388724 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 54m | sandbox | 3:05:46 | 4c 32G |
+| tzag_elita | 388724 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h21 | sandbox | 2:38:47 | 4c 32G |
 
 ## Failures
 
