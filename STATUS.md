@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-27 19:57:16 (Israel time)
+# DCOE sweeps -- status at 2026-11-27 20:02:12 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 90.8 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -886,12 +886,12 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | cox_loose | f1 | mover/pipeline = eb765b0 | tzag_elita | Failed | 11-26 10:04 | 11-26 17:50 |  |  | 619 / 155 / 155 | 11-27 09:05 training 386715 completed without a result; rerun; 11-27 09:05 trn 386715 completed without a result; rerun 4; 11-27 09:05 trn rerun 3 times already; marked Failed, job 386715 cancelled |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  |  |  |  |  | 11-26 17:50 | 11-26 17:53 | 3m | Done |  | cpu | 11-27 08:58 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | cox_loose | f3 | mover/pipeline = eb765b0 | tzag_elita | Failed | 11-26 10:04 | 11-26 17:50 |  |  | 619 / 154 / 155 | 11-27 09:05 training 386716 completed without a result; rerun; 11-27 09:05 trn 386716 completed without a result; rerun 4; 11-27 09:05 trn rerun 3 times already; marked Failed, job 386716 cancelled |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  |  |  |  |  | 11-26 17:50 | 11-26 17:54 | 4m | Done |  | cpu | 11-27 08:58 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | cox_loose | f4 | mover/pipeline = eb765b0 | tzag_elita | Failed | 11-26 10:04 | 11-26 17:55 |  |  | 620 / 155 / 154 | 11-27 09:05 training 386717 completed without a result; rerun; 11-27 09:05 trn 386717 completed without a result; rerun 4; 11-27 09:05 trn rerun 3 times already; marked Failed, job 386717 cancelled |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  |  |  |  |  | 11-26 17:55 | 11-26 17:58 | 3m | Done |  | cpu | 11-27 08:58 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| cox_strict | f0 | mover/pipeline = eb765b0 | tzag_elita | In Training | 11-26 10:04 | 11-27 19:41 |  | run_20261127_195236_cox_strict_f0 | 619 / 155 / 155 |  |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  |  |  |  |  | 11-27 19:41 | 11-27 19:47 | 5m | Done |  | cpu | 11-27 19:57 |  | 0m |  |  | sandbox |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| cox_strict | f2 | mover/pipeline = eb765b0 | tzag_elita | In Training | 11-26 10:04 | 11-27 19:41 |  | run_20261127_195236_cox_strict_f2 | 619 / 155 / 155 |  |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  |  |  |  |  | 11-27 19:41 | 11-27 19:48 | 6m | Done |  | cpu | 11-27 19:57 |  | 0m |  |  | sandbox |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| cox_strict | f1 | mover/pipeline = eb765b0 | tzag_elita | Before Training | 11-26 10:04 | 11-27 19:48 |  |  | 619 / 155 / 155 |  |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  | power-gpu | 1m |  |  | 11-27 19:48 | 11-27 19:52 | 4m | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| cox_strict | f3 | mover/pipeline = eb765b0 | tzag_elita | Before Training | 11-26 10:04 | 11-27 19:48 |  |  | 619 / 154 / 155 |  |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  | power-gpu | 1m |  |  | 11-27 19:48 | 11-27 19:54 | 5m | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| cox_strict | f4 | mover/pipeline = eb765b0 | tzag_elita | In Curation | 11-26 10:04 | 11-27 19:54 |  |  | 620 / 155 / 154 |  |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  |  |  |  |  | 11-27 19:54 | (11-27 20:01) | 3m | (11-27 20:01) | train 393/620 (63%); validation 0/155; test 0/154 | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| cox_k512 | f0 | mover/pipeline = eb765b0 | tzag_elita | Before Training | 11-26 10:04 |  |  |  | 619 / 155 / 155 | 11-27 19:51 training 388167 completed without a result; rerun; 11-27 19:51 trn 388167 completed without a result; rerun 1 |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  | power-gpu | 4m | (11-28 10:00) | Priority |  | 11-27 19:42 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| cox_strict | f0 | mover/pipeline = eb765b0 | tzag_elita | Before Training | 11-26 10:04 | 11-27 19:41 |  | run_20261127_195722_cox_strict_f0 | 619 / 155 / 155 | 11-27 19:56 trn 388171 completed without a result; rerun 1; 11-27 20:01 training 388194 completed without a result; rerun; 11-27 20:01 trn 388194 completed without a result; rerun 2 |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  |  |  |  |  | 11-27 19:41 | 11-27 19:47 | 5m | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| cox_strict | f2 | mover/pipeline = eb765b0 | tzag_elita | Before Training | 11-26 10:04 | 11-27 19:41 |  | run_20261127_195726_cox_strict_f2 | 619 / 155 / 155 | 11-27 19:56 trn 388172 completed without a result; rerun 1; 11-27 20:01 training 388195 completed without a result; rerun; 11-27 20:01 trn 388195 completed without a result; rerun 2 |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  |  |  |  |  | 11-27 19:41 | 11-27 19:48 | 6m | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| cox_strict | f1 | mover/pipeline = eb765b0 | tzag_elita | Before Training | 11-26 10:04 | 11-27 19:48 |  |  | 619 / 155 / 155 |  |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  | power-gpu | 5m | (11-28 10:00) | Priority | 11-27 19:48 | 11-27 19:52 | 4m | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| cox_strict | f3 | mover/pipeline = eb765b0 | tzag_elita | Before Training | 11-26 10:04 | 11-27 19:48 |  |  | 619 / 154 / 155 |  |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  | power-gpu | 5m | (11-28 10:00) | Priority | 11-27 19:48 | 11-27 19:54 | 5m | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| cox_strict | f4 | mover/pipeline = eb765b0 | tzag_elita | Before Training | 11-26 10:04 | 11-27 19:54 |  |  | 620 / 155 / 154 |  |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  | power-gpu | 1m |  |  | 11-27 19:54 | 11-27 19:58 | 4m | Done |  | cpu |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| cox_k512 | f0 | mover/pipeline = eb765b0 | tzag_elita | Before Training | 11-26 10:04 |  |  |  | 619 / 155 / 155 | 11-27 19:51 training 388167 completed without a result; rerun; 11-27 19:51 trn 388167 completed without a result; rerun 1 |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  | power-gpu | 9m | (11-28 10:00) | Priority |  | 11-27 19:42 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | cox_k512 | f2 | mover/pipeline = eb765b0 |  | Before Curation | 11-26 10:04 |  |  |  | 619 / 155 / 155 |  |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  |  |  |  | submission on athena failed |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | cox_k512 | f1 | mover/pipeline = eb765b0 |  | Before Curation | 11-26 10:04 |  |  |  | 619 / 155 / 155 |  |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | cox_k512 | f3 | mover/pipeline = eb765b0 |  | Before Curation | 11-26 10:04 |  |  |  | 619 / 154 / 155 |  |  | rocket | abp,ecg | raw | abp,ecg |  |  |  |  |  | age,gender,weight,height |  |  |  |  |  |  |  | waits for a neighbour fold |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -979,21 +979,21 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | athena | rtx6k-shared | 2 | 75/256 | 181 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 75/256 | 181 | 16/16 | 0 | 0 | 0 |  |
 | tzag_elita | compute-gpu | 31 | 2566/4960 | 2394 | 248/248 | 0 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 74/128 | 54 |  |  | 1 | 0 |  |
-| tzag_elita | power-gpu | 31 | 2566/4960 | 2394 | 248/248 | 0 | 0 | 3 | Priority x3 |
-| tzag_elita | sandbox | 1 | 40/160 | 120 | 3/8 | 5 | 3 | 0 |  |
+| tzag_elita | cpu | 2 | 66/128 | 62 |  |  | 0 | 0 |  |
+| tzag_elita | power-gpu | 31 | 2566/4960 | 2394 | 248/248 | 0 | 0 | 6 | Priority x6 |
+| tzag_elita | sandbox | 1 | 32/160 | 128 | 2/8 | 6 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 388152 | cur_cox_strict_f4 | cpu | spot_720 | RUNNING | 3m | cpu-node-01 | 7:56:51 | 8c 48G |
-| tzag_elita | 387683 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 3h47 | sandbox | 12:07 | 4c 32G |
-| tzag_elita | 388194 | dcoe_cox_strict_f0 | sandbox | billed_sandbox_spot_720 | RUNNING | 0m | sandbox | 3:59:52 | 8c 220000M |
-| tzag_elita | 388195 | dcoe_cox_strict_f2 | sandbox | billed_sandbox_spot_720 | RUNNING | 0m | sandbox | 3:59:55 | 8c 220000M |
-| tzag_elita | 388173 | dcoe_cox_k512_f0 | power-gpu | spot_720 | PENDING | 4m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 388197 | dcoe_cox_strict_f3 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
-| tzag_elita | 388196 | dcoe_cox_strict_f1 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 387683 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 3h52 | sandbox | 7:11 | 4c 32G |
+| tzag_elita | 388173 | dcoe_cox_k512_f0 | power-gpu | spot_720 | PENDING | 9m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 388196 | dcoe_cox_strict_f1 | power-gpu | spot_720 | PENDING | 5m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 388197 | dcoe_cox_strict_f3 | power-gpu | spot_720 | PENDING | 5m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 388203 | dcoe_cox_strict_f0 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 388205 | dcoe_cox_strict_f4 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
+| tzag_elita | 388204 | dcoe_cox_strict_f2 | power-gpu | spot_720 | PENDING | 0m | Priority | 8:00:00 | 12c 220000M |
 
 ## Failures
 
