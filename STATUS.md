@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-27 09:11:44 (Israel time)
+# DCOE sweeps -- status at 2026-11-27 09:16:40 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 90.4 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -937,8 +937,8 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 | mvco_gbdt_label5m | f3 | mover/pipeline = eb765b0 | tzag_elita | Failed | 11-26 10:04 |  |  |  | 83 / 20 / 21 | 11-27 09:05 training 386755 completed without a result; rerun; 11-27 09:05 trn 386755 completed without a result; rerun 4; 11-27 09:05 trn rerun 3 times already; marked Failed, job 386755 cancelled |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | 120 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1650 | age,sex,weight,height | ci | 300 | 60 | median |  |  |  |  |  | 11-26 10:37 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | mvco_gbdt_label5m | f4 | mover/pipeline = eb765b0 | tzag_elita | Failed | 11-26 10:04 |  |  |  | 84 / 21 / 20 | 11-27 09:05 training 386756 completed without a result; rerun; 11-27 09:05 trn 386756 completed without a result; rerun 4; 11-27 09:05 trn rerun 3 times already; marked Failed, job 386756 cancelled |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | 120 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1650 | age,sex,weight,height | ci | 300 | 60 | median |  |  |  |  |  | 11-26 10:41 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | mvco_gbdt_more | f0 | mover/pipeline = eb765b0 | tzag_elita | Failed | 11-26 10:04 |  |  |  | 83 / 21 / 21 | 11-27 09:05 training 386757 completed without a result; rerun; 11-27 09:05 trn 386757 completed without a result; rerun 4; 11-27 09:05 trn rerun 3 times already; marked Failed, job 386757 cancelled |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median |  |  |  |  |  | 11-26 10:42 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mvco_gbdt_more | f2 | mover/pipeline = eb765b0 | tzag_elita | Before Training | 11-26 10:04 |  |  | run_20261127_090507_mvco_gbdt_more_f2 | 83 / 21 / 21 | 11-27 09:10 training 386758 completed without a result; rerun; 11-27 09:10 trn 386758 completed without a result; rerun 4; 11-27 09:10 trn rerun 3 times already; marked Failed, job 386758 cancelled |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median |  |  |  |  |  | 11-26 10:42 |  | Done |  | cpu | 11-27 09:04 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| mvco_gbdt_more | f1 | mover/pipeline = eb765b0 | tzag_elita | Before Training | 11-26 10:04 |  |  | run_20261127_090508_mvco_gbdt_more_f1 | 83 / 21 / 21 | 11-27 09:10 training 386759 completed without a result; rerun; 11-27 09:10 trn 386759 completed without a result; rerun 4; 11-27 09:10 trn rerun 3 times already; marked Failed, job 386759 cancelled |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median |  |  |  |  |  | 11-26 10:43 |  | Done |  | cpu | 11-27 09:04 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mvco_gbdt_more | f2 | mover/pipeline = eb765b0 | tzag_elita | Failed | 11-26 10:04 |  |  |  | 83 / 21 / 21 | 11-27 09:10 training 386758 completed without a result; rerun; 11-27 09:10 trn 386758 completed without a result; rerun 4; 11-27 09:10 trn rerun 3 times already; marked Failed, job 386758 cancelled |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median |  |  |  |  |  | 11-26 10:42 |  | Done |  | cpu | 11-27 09:04 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| mvco_gbdt_more | f1 | mover/pipeline = eb765b0 | tzag_elita | Failed | 11-26 10:04 |  |  |  | 83 / 21 / 21 | 11-27 09:10 training 386759 completed without a result; rerun; 11-27 09:10 trn 386759 completed without a result; rerun 4; 11-27 09:10 trn rerun 3 times already; marked Failed, job 386759 cancelled |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median |  |  |  |  |  | 11-26 10:43 |  | Done |  | cpu | 11-27 09:04 |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | mvco_gbdt_more | f3 | mover/pipeline = eb765b0 | tzag_elita | Failed | 11-26 10:04 |  |  |  | 83 / 20 / 21 | 11-27 09:05 training 386736 completed without a result; rerun; 11-27 09:05 trn 386736 completed without a result; rerun 4; 11-27 09:05 trn rerun 3 times already; marked Failed, job 386736 cancelled |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median |  |  |  |  |  | 11-26 10:44 |  | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | mvco_gbdt_more | f4 | mover/pipeline = eb765b0 | tzag_elita | Failed | 11-26 10:04 | 11-26 10:44 |  |  | 84 / 21 / 20 | 11-27 09:05 training 386737 completed without a result; rerun; 11-27 09:05 trn 386737 completed without a result; rerun 4; 11-27 09:05 trn rerun 3 times already; marked Failed, job 386737 cancelled |  | gbdt | abp,hr_abp,map,sbp,dbp,sv,dpmax | v1 | abp | 60 | -30 | hr_abp,map,sbp,dbp,sv,dpmax | 1800 | -1770 | age,sex,weight,height | ci | 30 | 10 | median |  |  |  |  | 11-26 10:44 | 11-26 10:45 | 0m | Done |  | cpu |  |  |  |  |  | power-gpu |  |  |  |  |  |  |  |  |  |  |  |  |  |
 
@@ -946,16 +946,16 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Cluster | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | a100-public | 8 | 488/1024 | 536 | 64/64 | 0 | 0 | 0 |  |
+| athena | a100-public | 8 | 484/1024 | 540 | 64/64 | 0 | 0 | 0 |  |
 | athena | b200-shared | 2 | 240/256 | 16 | 16/16 | 0 | 0 | 0 |  |
 | athena | b200-sharir | 2 | 240/256 | 16 | 16/16 | 0 | 0 | 0 |  |
-| athena | cpu-amd | 9 | 530/1152 | 622 | 72/72 | 0 | 0 | 0 |  |
+| athena | cpu-amd | 9 | 526/1152 | 626 | 72/72 | 0 | 0 | 0 |  |
 | athena | debug | 1 | 0/128 | 128 | 0/8 | 8 | 0 | 0 |  |
 | athena | h200-dds | 1 | 43/128 | 85 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 43/128 | 85 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-benisty | 1 | 72/128 | 56 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-benisty | 1 | 56/128 | 72 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-public | 1 | 42/128 | 86 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 114/256 | 142 | 16/16 | 0 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 98/256 | 158 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 114/256 | 142 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 114/256 | 142 | 16/16 | 0 | 0 | 0 |  |
 | tzag_elita | compute-gpu | 31 | 2758/4960 | 2202 | 248/248 | 0 | 0 | 0 |  |
@@ -967,7 +967,7 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 386516 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h05 | sandbox | 2:54:57 | 4c 32G |
+| tzag_elita | 386516 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h09 | sandbox | 2:50:01 | 4c 32G |
 
 ## Failures
 
