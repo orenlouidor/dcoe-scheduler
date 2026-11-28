@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-28 14:24:32 (Israel time)
+# DCOE sweeps -- status at 2026-11-28 14:28:28 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 91.2 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -966,28 +966,28 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Cluster | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | a100-public | 8 | 450/1024 | 574 | 63/64 | 1 | 0 | 0 |  |
+| athena | a100-public | 8 | 444/1024 | 580 | 61/64 | 3 | 0 | 0 |  |
 | athena | b200-shared | 2 | 181/256 | 75 | 16/16 | 0 | 0 | 0 |  |
 | athena | b200-sharir | 2 | 181/256 | 75 | 16/16 | 0 | 0 | 0 |  |
-| athena | cpu-amd | 9 | 501/1152 | 651 | 71/72 | 1 | 0 | 0 |  |
+| athena | cpu-amd | 9 | 493/1152 | 659 | 69/72 | 3 | 0 | 0 |  |
 | athena | debug | 1 | 8/128 | 120 | 1/8 | 7 | 0 | 0 |  |
-| athena | h200-dds | 1 | 42/128 | 86 | 8/8 | 0 | 0 | 0 |  |
-| athena | h200-shared | 1 | 42/128 | 86 | 8/8 | 0 | 0 | 0 |  |
+| athena | h200-dds | 1 | 37/128 | 91 | 8/8 | 0 | 0 | 0 |  |
+| athena | h200-shared | 1 | 37/128 | 91 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-benisty | 1 | 33/128 | 95 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-public | 1 | 51/128 | 77 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 84/256 | 172 | 16/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shared | 2 | 128/256 | 48 | 12/16 | 0 | 0 | 0 |  |
-| athena | rtx6k-shocher | 2 | 128/256 | 48 | 12/16 | 0 | 0 | 0 |  |
-| tzag_elita | compute-gpu | 31 | 2314/4960 | 2646 | 234/248 | 14 | 0 | 0 |  |
-| tzag_elita | cpu | 2 | 56/128 | 72 |  |  | 0 | 0 |  |
-| tzag_elita | power-gpu | 31 | 2314/4960 | 2646 | 234/248 | 14 | 0 | 0 |  |
+| athena | l40s-public | 1 | 49/128 | 79 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 82/256 | 174 | 16/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shared | 2 | 123/256 | 53 | 12/16 | 0 | 0 | 0 |  |
+| athena | rtx6k-shocher | 2 | 123/256 | 53 | 12/16 | 0 | 0 | 0 |  |
+| tzag_elita | compute-gpu | 31 | 2402/4960 | 2558 | 242/248 | 6 | 0 | 0 |  |
+| tzag_elita | cpu | 2 | 40/128 | 88 |  |  | 0 | 0 |  |
+| tzag_elita | power-gpu | 31 | 2402/4960 | 2558 | 242/248 | 6 | 0 | 0 |  |
 | tzag_elita | sandbox | 1 | 58/160 | 102 | 6/8 | 2 | 1 | 0 |  |
 
 ## My jobs
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 389681 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 2h10 | sandbox | 1:49:34 | 4c 32G |
+| tzag_elita | 389681 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 2h14 | sandbox | 1:45:38 | 4c 32G |
 
 ## Failures
 
