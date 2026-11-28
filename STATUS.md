@@ -1,4 +1,4 @@
-# DCOE sweeps -- status at 2026-11-28 05:07:35 (Israel time)
+# DCOE sweeps -- status at 2026-11-28 05:13:46 (Israel time)
 
 Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.py. The queue: `sweeps.txt` of this repository (https://github.com/orenlouidor/dcoe-scheduler); push a line to schedule a sweep, `- name` to cancel it. 91.2 sandbox GPU-hours used since 2 Nov 2026 (the free 20 are exhausted; the rest is billed)
 
@@ -966,16 +966,16 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Cluster | Partition | Nodes | Cores alloc/total | Cores idle | GPUs used/total | GPUs free on usable nodes | My running | My pending | Pending reasons |
 |---|---|---|---|---|---|---|---|---|---|
-| athena | a100-public | 8 | 522/1024 | 502 | 64/64 | 0 | 0 | 0 |  |
+| athena | a100-public | 8 | 482/1024 | 542 | 64/64 | 0 | 0 | 0 |  |
 | athena | b200-shared | 2 | 128/256 | 128 | 16/16 | 0 | 0 | 0 |  |
 | athena | b200-sharir | 2 | 128/256 | 128 | 16/16 | 0 | 0 | 0 |  |
-| athena | cpu-amd | 9 | 592/1152 | 560 | 72/72 | 0 | 0 | 0 |  |
+| athena | cpu-amd | 9 | 549/1152 | 603 | 72/72 | 0 | 0 | 0 |  |
 | athena | debug | 1 | 4/128 | 124 | 1/8 | 7 | 0 | 0 |  |
 | athena | h200-dds | 1 | 42/128 | 86 | 8/8 | 0 | 0 | 0 |  |
 | athena | h200-shared | 1 | 42/128 | 86 | 8/8 | 0 | 0 | 0 |  |
 | athena | l40s-benisty | 1 | 46/128 | 82 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-public | 1 | 70/128 | 58 | 8/8 | 0 | 0 | 0 |  |
-| athena | l40s-shared | 2 | 116/256 | 140 | 16/16 | 0 | 0 | 0 |  |
+| athena | l40s-public | 1 | 67/128 | 61 | 8/8 | 0 | 0 | 0 |  |
+| athena | l40s-shared | 2 | 113/256 | 143 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shared | 2 | 140/256 | 116 | 16/16 | 0 | 0 | 0 |  |
 | athena | rtx6k-shocher | 2 | 140/256 | 116 | 16/16 | 0 | 0 | 0 |  |
 | tzag_elita | compute-gpu | 31 | 2602/4960 | 2358 | 223/248 | 25 | 0 | 0 |  |
@@ -987,7 +987,7 @@ Clusters: athena, tzag_elita. Updated every 5 minutes by scripts/exec/scheduler.
 
 | Cluster | Job | Name | Partition | QoS | State | Running/waiting for | Node / reason | Time left | Request |
 |---|---|---|---|---|---|---|---|---|---|
-| tzag_elita | 389112 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 55m | sandbox | 3:04:51 | 4c 32G |
+| tzag_elita | 389112 | viewer_8765 | sandbox | sandbox_spot_720 | RUNNING | 1h01 | sandbox | 2:58:40 | 4c 32G |
 
 ## Failures
 
